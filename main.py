@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 BASE_DIR = Path(__file__).resolve().parent
-PATIENT_DIR = BASE_DIR / "data" / "patients"
+PATIENT_DIR = BASE_DIR / "data"
 
 
 def load_patients() -> dict[str, dict[str, Any]]:
