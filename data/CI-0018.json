@@ -1,0 +1,544 @@
+{
+  "patient_id": "CI-0018",
+  "synthetic": true,
+  "name": {
+    "first": "Myra",
+    "last": "Fasting Glucose",
+    "display": "Myra Fasting Glucose"
+  },
+  "date_of_birth": "1967-03-24",
+  "age": 59,
+  "gender": "Male",
+  "abha_id": "SYN-0018-8750",
+  "contact": {
+    "phone": "+91-9140228456",
+    "city": "Pune"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Peanuts Allergy",
+      "Amoxicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2024-03-05",
+          "value": 169.5,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2025-09-30",
+          "value": 181.7,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2024-03-05",
+          "value": 8.3,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2025-09-30",
+          "value": 6.7,
+          "unit": "%"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0018-ENC-005",
+      "date": "2022-09-04",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/85",
+        "heart_rate": 65,
+        "respiratory_rate": 20,
+        "temperature_c": 36.5,
+        "spo2": 99,
+        "weight_kg": 82.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0018-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-05-09",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0018-ALG-001",
+      "substance": "Peanuts",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-03-17",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Peanuts.pdf"
+    },
+    {
+      "allergy_id": "CI-0018-ALG-002",
+      "substance": "Peanuts",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-11-09",
+      "source_hospital": "CityCare Hospital",
+      "source_document": "Allergy_Record_Peanuts.pdf"
+    },
+    {
+      "allergy_id": "CI-0018-ALG-003",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-04-18",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0018-ALG-004",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2026-06-12",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0018-MED-001",
+      "name": "Sitagliptin",
+      "dose": "100 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2021-03-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0018-ENC-001"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0018-OBS-001",
+      "date": "2024-01-09",
+      "name": "HbA1c",
+      "value": 7.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0018-OBS-002",
+      "date": "2024-01-09",
+      "name": "Fasting Glucose",
+      "value": 138.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0018-OBS-003",
+      "date": "2022-07-06",
+      "name": "HbA1c",
+      "value": 7.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0018-OBS-004",
+      "date": "2022-07-06",
+      "name": "Fasting Glucose",
+      "value": 110.2,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0018-OBS-005",
+      "date": "2025-09-30",
+      "name": "HbA1c",
+      "value": 6.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0018-OBS-006",
+      "date": "2025-09-30",
+      "name": "Fasting Glucose",
+      "value": 181.7,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0018-OBS-007",
+      "date": "2022-09-04",
+      "name": "HbA1c",
+      "value": 9.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0018-OBS-008",
+      "date": "2022-09-04",
+      "name": "Fasting Glucose",
+      "value": 126.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0018-OBS-009",
+      "date": "2024-03-05",
+      "name": "HbA1c",
+      "value": 8.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0018-OBS-010",
+      "date": "2024-03-05",
+      "name": "Fasting Glucose",
+      "value": 169.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0018-ENC-006",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0018-ENC-001",
+      "date": "2021-03-20",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/93",
+        "heart_rate": 80,
+        "respiratory_rate": 16,
+        "temperature_c": 36.6,
+        "spo2": 95,
+        "weight_kg": 70.7
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0018-ENC-003",
+      "date": "2022-07-06",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/86",
+        "heart_rate": 62,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 95,
+        "weight_kg": 64.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0018-ENC-005",
+      "date": "2022-09-04",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/85",
+        "heart_rate": 65,
+        "respiratory_rate": 20,
+        "temperature_c": 36.5,
+        "spo2": 99,
+        "weight_kg": 82.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0018-ENC-002",
+      "date": "2024-01-09",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/78",
+        "heart_rate": 70,
+        "respiratory_rate": 18,
+        "temperature_c": 37.5,
+        "spo2": 96,
+        "weight_kg": 91.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0018-ENC-006",
+      "date": "2024-03-05",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "162/91",
+        "heart_rate": 97,
+        "respiratory_rate": 20,
+        "temperature_c": 36.4,
+        "spo2": 94,
+        "weight_kg": 61.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0018-ENC-004",
+      "date": "2025-09-30",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "151/85",
+        "heart_rate": 94,
+        "respiratory_rate": 21,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 75.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0018-DOC-002",
+      "date": "2022-07-06",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-07-06.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0018-ENC-003"
+    },
+    {
+      "document_id": "CI-0018-DOC-004",
+      "date": "2022-09-04",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2022-09-04.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0018-ENC-005"
+    },
+    {
+      "document_id": "CI-0018-DOC-005",
+      "date": "2022-09-04",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-09-04.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0018-ENC-005"
+    },
+    {
+      "document_id": "CI-0018-DOC-001",
+      "date": "2024-01-09",
+      "type": "Progress Note",
+      "file_name": "Prescription_2024-01-09.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0018-ENC-002"
+    },
+    {
+      "document_id": "CI-0018-DOC-006",
+      "date": "2024-03-05",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2024-03-05.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0018-ENC-006"
+    },
+    {
+      "document_id": "CI-0018-DOC-003",
+      "date": "2025-09-30",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2025-09-30.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0018-ENC-004"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-03-20",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0018-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-03-24",
+      "type": "medication_started",
+      "title": "Sitagliptin started",
+      "details": "100 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0018-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-07-06",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0018-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-09-04",
+      "type": "hospitalization",
+      "title": "Hospitalization: Uncontrolled Blood Pressure",
+      "encounter_id": "CI-0018-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-01-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0018-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-03-05",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0018-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-09-30",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0018-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

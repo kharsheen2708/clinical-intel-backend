@@ -1,0 +1,935 @@
+{
+  "patient_id": "CI-0008",
+  "synthetic": true,
+  "name": {
+    "first": "Vihaan",
+    "last": "Fasting Glucose",
+    "display": "Vihaan Fasting Glucose"
+  },
+  "date_of_birth": "1990-06-10",
+  "age": 36,
+  "gender": "Female",
+  "abha_id": "SYN-0008-9129",
+  "contact": {
+    "phone": "+91-9843102880",
+    "city": "Nashik"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Cardiac History",
+      "Blood thinner"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Coronary Artery Disease",
+        "code": "I25.10"
+      },
+      {
+        "name": "Hypothyroidism",
+        "code": "E03.9"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "1500 mg",
+        "frequency": "BD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Clopidogrel",
+        "dose": "75 mg",
+        "frequency": "OD",
+        "indication": "Coronary Artery Disease"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "50 mcg",
+        "frequency": "OD",
+        "indication": "Hypothyroidism"
+      },
+      {
+        "name": "Diclofenac",
+        "dose": "50 mg",
+        "frequency": "BD",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2025-11-26",
+          "value": 125.3,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-07-31",
+          "value": 160.2,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Free T4",
+        "previous": {
+          "date": "2024-12-13",
+          "value": 0.99,
+          "unit": "ng/dL"
+        },
+        "current": {
+          "date": "2026-07-31",
+          "value": 0.68,
+          "unit": "ng/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2025-11-26",
+          "value": 6.9,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-07-31",
+          "value": 9.0,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "TSH",
+        "previous": {
+          "date": "2024-12-13",
+          "value": 3.7,
+          "unit": "mIU/L"
+        },
+        "current": {
+          "date": "2026-07-31",
+          "value": 7.5,
+          "unit": "mIU/L"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2024-12-13",
+          "value": "1500 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0008-ENC-011",
+      "date": "2023-09-28",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/83",
+        "heart_rate": 63,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 99,
+        "weight_kg": 70.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0008-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-02-13",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0008-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-12-21",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0008-COND-003",
+      "name": "Coronary Artery Disease",
+      "code": "I25.10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-07-22",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0008-COND-004",
+      "name": "Hypothyroidism",
+      "code": "E03.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-07-10",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0008-COND-005",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-06-10",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [],
+  "medications": [
+    {
+      "medication_id": "CI-0008-MED-001",
+      "name": "Metformin",
+      "dose": "1500 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2023-07-31",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0008-ENC-001",
+      "last_changed": "2024-12-13"
+    },
+    {
+      "medication_id": "CI-0008-MED-002",
+      "name": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2022-04-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0008-ENC-002"
+    },
+    {
+      "medication_id": "CI-0008-MED-003",
+      "name": "Clopidogrel",
+      "dose": "75 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Coronary Artery Disease",
+      "start_date": "2023-05-30",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0008-ENC-003"
+    },
+    {
+      "medication_id": "CI-0008-MED-004",
+      "name": "Levothyroxine",
+      "dose": "50 mcg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hypothyroidism",
+      "start_date": "2021-07-28",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0008-ENC-004"
+    },
+    {
+      "medication_id": "CI-0008-MED-005",
+      "name": "Diclofenac",
+      "dose": "50 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2023-06-09",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0008-ENC-005"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0008-OBS-001",
+      "date": "2026-07-31",
+      "name": "HbA1c",
+      "value": 9.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0008-OBS-002",
+      "date": "2026-07-31",
+      "name": "Fasting Glucose",
+      "value": 160.2,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0008-OBS-003",
+      "date": "2026-07-31",
+      "name": "TSH",
+      "value": 7.5,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0008-OBS-004",
+      "date": "2026-07-31",
+      "name": "Free T4",
+      "value": 0.68,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0008-OBS-005",
+      "date": "2025-11-26",
+      "name": "HbA1c",
+      "value": 6.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0008-OBS-006",
+      "date": "2025-11-26",
+      "name": "Fasting Glucose",
+      "value": 125.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0008-OBS-007",
+      "date": "2022-08-16",
+      "name": "Systolic BP",
+      "value": 148.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0008-OBS-008",
+      "date": "2022-08-16",
+      "name": "Diastolic BP",
+      "value": 85.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0008-OBS-009",
+      "date": "2024-12-13",
+      "name": "TSH",
+      "value": 3.7,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0008-OBS-010",
+      "date": "2024-12-13",
+      "name": "Free T4",
+      "value": 0.99,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0008-OBS-011",
+      "date": "2022-10-01",
+      "name": "TSH",
+      "value": 3.4,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-010",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0008-OBS-012",
+      "date": "2022-10-01",
+      "name": "Free T4",
+      "value": 1.07,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-010",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0008-OBS-013",
+      "date": "2023-09-28",
+      "name": "HbA1c",
+      "value": 9.2,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-011",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0008-OBS-014",
+      "date": "2023-09-28",
+      "name": "Fasting Glucose",
+      "value": 168.2,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0008-ENC-011",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0008-ENC-004",
+      "date": "2021-07-06",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to hypothyroidism",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "126/80",
+        "heart_rate": 65,
+        "respiratory_rate": 19,
+        "temperature_c": 36.8,
+        "spo2": 97,
+        "weight_kg": 77.2
+      },
+      "notes": "Hypothyroidism documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-002",
+      "date": "2022-04-15",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "141/93",
+        "heart_rate": 77,
+        "respiratory_rate": 17,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 64.4
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-008",
+      "date": "2022-08-16",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "145/72",
+        "heart_rate": 99,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 96,
+        "weight_kg": 63.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-010",
+      "date": "2022-10-01",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "158/77",
+        "heart_rate": 68,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 96,
+        "weight_kg": 56.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-003",
+      "date": "2023-04-30",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to coronary artery disease",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "141/93",
+        "heart_rate": 90,
+        "respiratory_rate": 17,
+        "temperature_c": 37.1,
+        "spo2": 98,
+        "weight_kg": 75.1
+      },
+      "notes": "Coronary Artery Disease documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-005",
+      "date": "2023-06-07",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/74",
+        "heart_rate": 72,
+        "respiratory_rate": 16,
+        "temperature_c": 36.8,
+        "spo2": 99,
+        "weight_kg": 60.9
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-001",
+      "date": "2023-07-08",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/84",
+        "heart_rate": 71,
+        "respiratory_rate": 15,
+        "temperature_c": 36.6,
+        "spo2": 99,
+        "weight_kg": 87.4
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-011",
+      "date": "2023-09-28",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/83",
+        "heart_rate": 63,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 99,
+        "weight_kg": 70.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-009",
+      "date": "2024-12-13",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/92",
+        "heart_rate": 84,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 93,
+        "weight_kg": 70.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-007",
+      "date": "2025-11-26",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/78",
+        "heart_rate": 69,
+        "respiratory_rate": 20,
+        "temperature_c": 36.4,
+        "spo2": 95,
+        "weight_kg": 65.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0008-ENC-006",
+      "date": "2026-07-31",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "133/84",
+        "heart_rate": 65,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 95,
+        "weight_kg": 95.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0008-DOC-004",
+      "date": "2022-08-16",
+      "type": "Prescription",
+      "file_name": "Consultation_2022-08-16.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0008-ENC-008"
+    },
+    {
+      "document_id": "CI-0008-DOC-006",
+      "date": "2022-10-01",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2022-10-01.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0008-ENC-010"
+    },
+    {
+      "document_id": "CI-0008-DOC-007",
+      "date": "2023-09-28",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2023-09-28.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0008-ENC-011"
+    },
+    {
+      "document_id": "CI-0008-DOC-008",
+      "date": "2023-09-28",
+      "type": "Progress Note",
+      "file_name": "Prescription_2023-09-28.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0008-ENC-011"
+    },
+    {
+      "document_id": "CI-0008-DOC-005",
+      "date": "2024-12-13",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2024-12-13.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0008-ENC-009"
+    },
+    {
+      "document_id": "CI-0008-DOC-003",
+      "date": "2025-11-26",
+      "type": "Progress Note",
+      "file_name": "Consultation_2025-11-26.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0008-ENC-007"
+    },
+    {
+      "document_id": "CI-0008-DOC-001",
+      "date": "2026-07-31",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2026-07-31.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0008-ENC-006"
+    },
+    {
+      "document_id": "CI-0008-DOC-002",
+      "date": "2026-07-31",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2026-07-31.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0008-ENC-006"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-07-06",
+      "type": "diagnosis",
+      "title": "Hypothyroidism diagnosed",
+      "encounter_id": "CI-0008-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2021-07-28",
+      "type": "medication_started",
+      "title": "Levothyroxine started",
+      "details": "50 mcg OD for Hypothyroidism",
+      "encounter_id": "CI-0008-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-04-15",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0008-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-04-24",
+      "type": "medication_started",
+      "title": "Amlodipine started",
+      "details": "5 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0008-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-08-16",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0008-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-10-01",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0008-ENC-010",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-04-30",
+      "type": "diagnosis",
+      "title": "Coronary Artery Disease diagnosed",
+      "encounter_id": "CI-0008-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-05-30",
+      "type": "medication_started",
+      "title": "Clopidogrel started",
+      "details": "75 mg OD for Coronary Artery Disease",
+      "encounter_id": "CI-0008-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-06-07",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0008-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-06-09",
+      "type": "medication_started",
+      "title": "Diclofenac started",
+      "details": "50 mg BD for Osteoarthritis",
+      "encounter_id": "CI-0008-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-07-08",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0008-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-07-31",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "1000 mg BD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0008-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-09-28",
+      "type": "hospitalization",
+      "title": "Hospitalization: Uncontrolled Blood Pressure",
+      "encounter_id": "CI-0008-ENC-011",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-12-13",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "1000 mg → 1500 mg",
+      "encounter_id": "CI-0008-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-11-26",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0008-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "hospitalization",
+      "title": "Hospitalization: Hyperglycemia",
+      "encounter_id": "CI-0008-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

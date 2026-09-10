@@ -1,0 +1,719 @@
+{
+  "patient_id": "CI-0012",
+  "synthetic": true,
+  "name": {
+    "first": "Aadhya",
+    "last": "Diastolic BP",
+    "display": "Aadhya Diastolic BP"
+  },
+  "date_of_birth": "1988-03-17",
+  "age": 38,
+  "gender": "Male",
+  "abha_id": "SYN-0012-1154",
+  "contact": {
+    "phone": "+91-9854674236",
+    "city": "Pune"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Losartan",
+        "dose": "40 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2026-01-21",
+          "value": 85.7,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2026-04-15",
+          "value": 97.4,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2026-01-21",
+          "value": 162.9,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2026-04-15",
+          "value": 161.7,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Losartan dose",
+        "previous": null,
+        "current": {
+          "date": "2023-05-06",
+          "value": "40 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0012-COND-001",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-10-25",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [],
+  "medications": [
+    {
+      "medication_id": "CI-0012-MED-001",
+      "name": "Losartan",
+      "dose": "40 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2021-12-12",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0012-ENC-001",
+      "last_changed": "2023-05-06"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0012-OBS-001",
+      "date": "2023-10-15",
+      "name": "Systolic BP",
+      "value": 138.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0012-OBS-002",
+      "date": "2023-10-15",
+      "name": "Diastolic BP",
+      "value": 71.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0012-OBS-003",
+      "date": "2025-02-15",
+      "name": "Systolic BP",
+      "value": 117.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-004",
+      "date": "2025-02-15",
+      "name": "Diastolic BP",
+      "value": 81.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-005",
+      "date": "2023-01-21",
+      "name": "Systolic BP",
+      "value": 127.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-006",
+      "date": "2023-01-21",
+      "name": "Diastolic BP",
+      "value": 88.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-007",
+      "date": "2023-05-06",
+      "name": "Systolic BP",
+      "value": 160.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-008",
+      "date": "2023-05-06",
+      "name": "Diastolic BP",
+      "value": 81.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-009",
+      "date": "2025-02-26",
+      "name": "Systolic BP",
+      "value": 147.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-006",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0012-OBS-010",
+      "date": "2025-02-26",
+      "name": "Diastolic BP",
+      "value": 90.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-006",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0012-OBS-011",
+      "date": "2026-01-21",
+      "name": "Systolic BP",
+      "value": 162.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0012-OBS-012",
+      "date": "2026-01-21",
+      "name": "Diastolic BP",
+      "value": 85.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0012-OBS-013",
+      "date": "2026-04-15",
+      "name": "Systolic BP",
+      "value": 161.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0012-OBS-014",
+      "date": "2026-04-15",
+      "name": "Diastolic BP",
+      "value": 97.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0012-OBS-015",
+      "date": "2022-01-14",
+      "name": "Systolic BP",
+      "value": 127.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-016",
+      "date": "2022-01-14",
+      "name": "Diastolic BP",
+      "value": 88.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0012-OBS-017",
+      "date": "2023-07-02",
+      "name": "Systolic BP",
+      "value": 116.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0012-OBS-018",
+      "date": "2023-07-02",
+      "name": "Diastolic BP",
+      "value": 82.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0012-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0012-ENC-001",
+      "date": "2021-11-30",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "158/93",
+        "heart_rate": 89,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 97,
+        "weight_kg": 92.7
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-009",
+      "date": "2022-01-14",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/88",
+        "heart_rate": 87,
+        "respiratory_rate": 16,
+        "temperature_c": 36.4,
+        "spo2": 93,
+        "weight_kg": 77.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-004",
+      "date": "2023-01-21",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "118/78",
+        "heart_rate": 72,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 99,
+        "weight_kg": 75.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-005",
+      "date": "2023-05-06",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "137/80",
+        "heart_rate": 83,
+        "respiratory_rate": 21,
+        "temperature_c": 36.9,
+        "spo2": 99,
+        "weight_kg": 97.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-010",
+      "date": "2023-07-02",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "162/79",
+        "heart_rate": 79,
+        "respiratory_rate": 15,
+        "temperature_c": 37.1,
+        "spo2": 99,
+        "weight_kg": 82.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-002",
+      "date": "2023-10-15",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "152/87",
+        "heart_rate": 75,
+        "respiratory_rate": 17,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 61.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-003",
+      "date": "2025-02-15",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "159/74",
+        "heart_rate": 88,
+        "respiratory_rate": 19,
+        "temperature_c": 36.4,
+        "spo2": 98,
+        "weight_kg": 90.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-006",
+      "date": "2025-02-26",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "130/82",
+        "heart_rate": 74,
+        "respiratory_rate": 20,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 76.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-007",
+      "date": "2026-01-21",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "164/89",
+        "heart_rate": 91,
+        "respiratory_rate": 16,
+        "temperature_c": 37.4,
+        "spo2": 97,
+        "weight_kg": 97.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0012-ENC-008",
+      "date": "2026-04-15",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "118/78",
+        "heart_rate": 92,
+        "respiratory_rate": 21,
+        "temperature_c": 36.7,
+        "spo2": 97,
+        "weight_kg": 82.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0012-DOC-008",
+      "date": "2022-01-14",
+      "type": "Prescription",
+      "file_name": "Prescription_2022-01-14.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0012-ENC-009"
+    },
+    {
+      "document_id": "CI-0012-DOC-003",
+      "date": "2023-01-21",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2023-01-21.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0012-ENC-004"
+    },
+    {
+      "document_id": "CI-0012-DOC-004",
+      "date": "2023-05-06",
+      "type": "Progress Note",
+      "file_name": "Consultation_2023-05-06.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0012-ENC-005"
+    },
+    {
+      "document_id": "CI-0012-DOC-009",
+      "date": "2023-07-02",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2023-07-02.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0012-ENC-010"
+    },
+    {
+      "document_id": "CI-0012-DOC-001",
+      "date": "2023-10-15",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2023-10-15.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0012-ENC-002"
+    },
+    {
+      "document_id": "CI-0012-DOC-002",
+      "date": "2025-02-15",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2025-02-15.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0012-ENC-003"
+    },
+    {
+      "document_id": "CI-0012-DOC-005",
+      "date": "2025-02-26",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2025-02-26.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0012-ENC-006"
+    },
+    {
+      "document_id": "CI-0012-DOC-006",
+      "date": "2026-01-21",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2026-01-21.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0012-ENC-007"
+    },
+    {
+      "document_id": "CI-0012-DOC-007",
+      "date": "2026-04-15",
+      "type": "Progress Note",
+      "file_name": "Consultation_2026-04-15.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0012-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-11-30",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0012-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-12-12",
+      "type": "medication_started",
+      "title": "Losartan started",
+      "details": "50 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0012-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-01-14",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-01-21",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-05-06",
+      "type": "medication_changed",
+      "title": "Losartan dose changed",
+      "details": "50 mg → 40 mg",
+      "encounter_id": "CI-0012-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-07-02",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-10-15",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2025-02-15",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-02-26",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-006",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0012-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2026-04-15",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0012-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

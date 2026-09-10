@@ -1,0 +1,563 @@
+{
+  "patient_id": "CI-0014",
+  "synthetic": true,
+  "name": {
+    "first": "Ira",
+    "last": "Fasting Glucose",
+    "display": "Ira Fasting Glucose"
+  },
+  "date_of_birth": "1973-12-23",
+  "age": 53,
+  "gender": "Female",
+  "abha_id": "SYN-0014-2871",
+  "contact": {
+    "phone": "+91-9473581239",
+    "city": "Thane"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Penicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "2000 mg",
+        "frequency": "BD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Diclofenac",
+        "dose": "50 mg",
+        "frequency": "BD",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2023-12-04",
+          "value": 120.8,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-06-08",
+          "value": 160.0,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2023-12-04",
+          "value": 8.4,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-06-08",
+          "value": 8.4,
+          "unit": "%"
+        },
+        "status": "no_change"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2022-03-01",
+          "value": "2000 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0014-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-07-02",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0014-COND-002",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-05-24",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0014-ALG-001",
+      "substance": "Penicillin",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-07-07",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Penicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0014-ALG-002",
+      "substance": "Penicillin",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-05-11",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Penicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0014-MED-001",
+      "name": "Metformin",
+      "dose": "2000 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2023-03-25",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0014-ENC-001",
+      "last_changed": "2022-03-01"
+    },
+    {
+      "medication_id": "CI-0014-MED-002",
+      "name": "Diclofenac",
+      "dose": "50 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2022-03-02",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0014-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0014-OBS-001",
+      "date": "2026-06-08",
+      "name": "HbA1c",
+      "value": 8.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0014-OBS-002",
+      "date": "2026-06-08",
+      "name": "Fasting Glucose",
+      "value": 160.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0014-OBS-003",
+      "date": "2022-06-25",
+      "name": "HbA1c",
+      "value": 7.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0014-OBS-004",
+      "date": "2022-06-25",
+      "name": "Fasting Glucose",
+      "value": 173.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0014-OBS-005",
+      "date": "2023-12-04",
+      "name": "HbA1c",
+      "value": 8.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0014-OBS-006",
+      "date": "2023-12-04",
+      "name": "Fasting Glucose",
+      "value": 120.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0014-OBS-007",
+      "date": "2022-03-01",
+      "name": "HbA1c",
+      "value": 7.1,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0014-OBS-008",
+      "date": "2022-03-01",
+      "name": "Fasting Glucose",
+      "value": 132.7,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0014-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0014-ENC-002",
+      "date": "2022-02-13",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "146/91",
+        "heart_rate": 92,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 99,
+        "weight_kg": 91.9
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0014-ENC-007",
+      "date": "2022-03-01",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/78",
+        "heart_rate": 73,
+        "respiratory_rate": 18,
+        "temperature_c": 37.2,
+        "spo2": 99,
+        "weight_kg": 89.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0014-ENC-005",
+      "date": "2022-06-25",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/87",
+        "heart_rate": 66,
+        "respiratory_rate": 21,
+        "temperature_c": 37.2,
+        "spo2": 96,
+        "weight_kg": 68.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0014-ENC-004",
+      "date": "2022-08-05",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "143/86",
+        "heart_rate": 97,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 93,
+        "weight_kg": 75.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0014-ENC-001",
+      "date": "2023-03-03",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/93",
+        "heart_rate": 93,
+        "respiratory_rate": 15,
+        "temperature_c": 37.0,
+        "spo2": 96,
+        "weight_kg": 65.1
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0014-ENC-006",
+      "date": "2023-12-04",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "153/77",
+        "heart_rate": 81,
+        "respiratory_rate": 20,
+        "temperature_c": 37.5,
+        "spo2": 94,
+        "weight_kg": 89.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0014-ENC-003",
+      "date": "2026-06-08",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "160/93",
+        "heart_rate": 82,
+        "respiratory_rate": 16,
+        "temperature_c": 37.1,
+        "spo2": 93,
+        "weight_kg": 79.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0014-DOC-005",
+      "date": "2022-03-01",
+      "type": "Progress Note",
+      "file_name": "Consultation_2022-03-01.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0014-ENC-007"
+    },
+    {
+      "document_id": "CI-0014-DOC-003",
+      "date": "2022-06-25",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-06-25.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0014-ENC-005"
+    },
+    {
+      "document_id": "CI-0014-DOC-002",
+      "date": "2022-08-05",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2022-08-05.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0014-ENC-004"
+    },
+    {
+      "document_id": "CI-0014-DOC-004",
+      "date": "2023-12-04",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2023-12-04.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0014-ENC-006"
+    },
+    {
+      "document_id": "CI-0014-DOC-001",
+      "date": "2026-06-08",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2026-06-08.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0014-ENC-003"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-02-13",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0014-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-03-01",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "1000 mg → 2000 mg",
+      "encounter_id": "CI-0014-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-03-02",
+      "type": "medication_started",
+      "title": "Diclofenac started",
+      "details": "50 mg BD for Osteoarthritis",
+      "encounter_id": "CI-0014-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-06-25",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0014-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-08-05",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0014-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-03-03",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0014-ENC-001",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-03-25",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "1000 mg BD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0014-ENC-001",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-12-04",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0014-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0014-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "patient_id": "CI-0002",
+  "synthetic": true,
+  "name": {
+    "first": "Vivaan",
+    "last": "Diastolic BP",
+    "display": "Vivaan Diastolic BP"
+  },
+  "date_of_birth": "1954-12-18",
+  "age": 72,
+  "gender": "Male",
+  "abha_id": "SYN-0002-4114",
+  "contact": {
+    "phone": "+91-9373506211",
+    "city": "Mumbai"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "code": "E78.5"
+      },
+      {
+        "name": "Hypothyroidism",
+        "code": "E03.9"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Glimepiride",
+        "dose": "1 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "OD",
+        "indication": "Hyperlipidemia"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "OD",
+        "indication": "Hypothyroidism"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2022-02-18",
+          "value": 71.1,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-07-23",
+          "value": 97.1,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "LDL",
+        "previous": {
+          "date": "2025-07-23",
+          "value": 124.6,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-06-27",
+          "value": 105.0,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2022-02-18",
+          "value": 164.2,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-07-23",
+          "value": 159.2,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Total Cholesterol",
+        "previous": {
+          "date": "2025-07-23",
+          "value": 233.5,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-06-27",
+          "value": 232.1,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0002-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-05-25",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0002-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2018-07-10",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0002-COND-003",
+      "name": "Hyperlipidemia",
+      "code": "E78.5",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-05-02",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0002-COND-004",
+      "name": "Hypothyroidism",
+      "code": "E03.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-07-17",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0002-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-11-23",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0002-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-04-19",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0002-MED-001",
+      "name": "Glimepiride",
+      "dose": "1 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2020-02-13",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0002-ENC-001"
+    },
+    {
+      "medication_id": "CI-0002-MED-002",
+      "name": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2020-05-19",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0002-ENC-002"
+    },
+    {
+      "medication_id": "CI-0002-MED-003",
+      "name": "Atorvastatin",
+      "dose": "20 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hyperlipidemia",
+      "start_date": "2019-11-13",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0002-ENC-003"
+    },
+    {
+      "medication_id": "CI-0002-MED-004",
+      "name": "Levothyroxine",
+      "dose": "75 mcg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hypothyroidism",
+      "start_date": "2019-04-09",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0002-ENC-004"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0002-OBS-001",
+      "date": "2022-10-03",
+      "name": "LDL",
+      "value": 95.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-005",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-002",
+      "date": "2022-10-03",
+      "name": "Total Cholesterol",
+      "value": 240.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-005",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-003",
+      "date": "2025-07-23",
+      "name": "Systolic BP",
+      "value": 159.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0002-OBS-004",
+      "date": "2025-07-23",
+      "name": "Diastolic BP",
+      "value": 97.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0002-OBS-005",
+      "date": "2025-07-23",
+      "name": "LDL",
+      "value": 124.6,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0002-OBS-006",
+      "date": "2025-07-23",
+      "name": "Total Cholesterol",
+      "value": 233.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0002-OBS-007",
+      "date": "2022-09-19",
+      "name": "LDL",
+      "value": 132.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-008",
+      "date": "2022-09-19",
+      "name": "Total Cholesterol",
+      "value": 165.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-009",
+      "date": "2026-06-27",
+      "name": "TSH",
+      "value": 3.4,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-010",
+      "date": "2026-06-27",
+      "name": "Free T4",
+      "value": 1.15,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-011",
+      "date": "2026-06-27",
+      "name": "LDL",
+      "value": 105.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-012",
+      "date": "2026-06-27",
+      "name": "Total Cholesterol",
+      "value": 232.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0002-OBS-013",
+      "date": "2022-02-18",
+      "name": "HbA1c",
+      "value": 7.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0002-OBS-014",
+      "date": "2022-02-18",
+      "name": "Fasting Glucose",
+      "value": 154.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0002-OBS-015",
+      "date": "2022-02-18",
+      "name": "Systolic BP",
+      "value": 164.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0002-OBS-016",
+      "date": "2022-02-18",
+      "name": "Diastolic BP",
+      "value": 71.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0002-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0002-ENC-004",
+      "date": "2019-03-11",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to hypothyroidism",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "128/86",
+        "heart_rate": 96,
+        "respiratory_rate": 19,
+        "temperature_c": 36.7,
+        "spo2": 99,
+        "weight_kg": 55.3
+      },
+      "notes": "Hypothyroidism documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-003",
+      "date": "2019-10-16",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to hyperlipidemia",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/74",
+        "heart_rate": 96,
+        "respiratory_rate": 15,
+        "temperature_c": 36.9,
+        "spo2": 96,
+        "weight_kg": 92.3
+      },
+      "notes": "Hyperlipidemia documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-001",
+      "date": "2020-02-07",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/73",
+        "heart_rate": 67,
+        "respiratory_rate": 17,
+        "temperature_c": 37.0,
+        "spo2": 99,
+        "weight_kg": 75.9
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-002",
+      "date": "2020-05-19",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "133/80",
+        "heart_rate": 87,
+        "respiratory_rate": 15,
+        "temperature_c": 37.0,
+        "spo2": 97,
+        "weight_kg": 73.3
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-009",
+      "date": "2022-02-18",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "159/88",
+        "heart_rate": 85,
+        "respiratory_rate": 19,
+        "temperature_c": 37.4,
+        "spo2": 93,
+        "weight_kg": 92.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-007",
+      "date": "2022-09-19",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/79",
+        "heart_rate": 66,
+        "respiratory_rate": 19,
+        "temperature_c": 37.2,
+        "spo2": 99,
+        "weight_kg": 72.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-005",
+      "date": "2022-10-03",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/78",
+        "heart_rate": 81,
+        "respiratory_rate": 17,
+        "temperature_c": 37.1,
+        "spo2": 99,
+        "weight_kg": 66.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-006",
+      "date": "2025-07-23",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "128/95",
+        "heart_rate": 88,
+        "respiratory_rate": 20,
+        "temperature_c": 37.0,
+        "spo2": 93,
+        "weight_kg": 58.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0002-ENC-008",
+      "date": "2026-06-27",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "135/77",
+        "heart_rate": 66,
+        "respiratory_rate": 20,
+        "temperature_c": 37.3,
+        "spo2": 99,
+        "weight_kg": 75.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0002-DOC-005",
+      "date": "2022-02-18",
+      "type": "Progress Note",
+      "file_name": "Prescription_2022-02-18.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0002-ENC-009"
+    },
+    {
+      "document_id": "CI-0002-DOC-003",
+      "date": "2022-09-19",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2022-09-19.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0002-ENC-007"
+    },
+    {
+      "document_id": "CI-0002-DOC-001",
+      "date": "2022-10-03",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-10-03.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0002-ENC-005"
+    },
+    {
+      "document_id": "CI-0002-DOC-002",
+      "date": "2025-07-23",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2025-07-23.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0002-ENC-006"
+    },
+    {
+      "document_id": "CI-0002-DOC-004",
+      "date": "2026-06-27",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2026-06-27.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0002-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-03-11",
+      "type": "diagnosis",
+      "title": "Hypothyroidism diagnosed",
+      "encounter_id": "CI-0002-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2019-04-09",
+      "type": "medication_started",
+      "title": "Levothyroxine started",
+      "details": "75 mcg OD for Hypothyroidism",
+      "encounter_id": "CI-0002-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2019-10-16",
+      "type": "diagnosis",
+      "title": "Hyperlipidemia diagnosed",
+      "encounter_id": "CI-0002-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2019-11-13",
+      "type": "medication_started",
+      "title": "Atorvastatin started",
+      "details": "20 mg OD for Hyperlipidemia",
+      "encounter_id": "CI-0002-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2020-02-07",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0002-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2020-02-13",
+      "type": "medication_started",
+      "title": "Glimepiride started",
+      "details": "1 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0002-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2020-05-19",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0002-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2020-05-19",
+      "type": "medication_started",
+      "title": "Amlodipine started",
+      "details": "5 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0002-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-02-18",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0002-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-09-19",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0002-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2025-07-23",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0002-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2026-06-27",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0002-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

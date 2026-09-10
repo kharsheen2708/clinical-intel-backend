@@ -1,0 +1,739 @@
+{
+  "patient_id": "CI-0038",
+  "synthetic": true,
+  "name": {
+    "first": "Myra",
+    "last": "Fasting Glucose",
+    "display": "Myra Fasting Glucose"
+  },
+  "date_of_birth": "1978-03-15",
+  "age": 48,
+  "gender": "Female",
+  "abha_id": "SYN-0038-5321",
+  "contact": {
+    "phone": "+91-9655095194",
+    "city": "Thane"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 3",
+        "code": "N18.3"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "BD",
+        "indication": "Type 2 Diabetes Mellitus"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Creatinine",
+        "previous": {
+          "date": "2023-05-27",
+          "value": 1.28,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2023-06-18",
+          "value": 2.18,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2023-05-27",
+          "value": 137.1,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2023-06-18",
+          "value": 128.9,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2023-05-27",
+          "value": 7.7,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2023-06-18",
+          "value": 9.4,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "eGFR",
+        "previous": {
+          "date": "2023-05-27",
+          "value": 40.7,
+          "unit": "mL/min/1.73m²"
+        },
+        "current": {
+          "date": "2023-06-18",
+          "value": 44.5,
+          "unit": "mL/min/1.73m²"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0038-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-02-09",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0038-COND-002",
+      "name": "Chronic Kidney Disease, Stage 3",
+      "code": "N18.3",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2019-01-27",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0038-ALG-001",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-06-09",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Dust.pdf"
+    },
+    {
+      "allergy_id": "CI-0038-ALG-002",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-08-26",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Dust.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0038-MED-001",
+      "name": "Metformin",
+      "dose": "1000 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2018-09-12",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0038-ENC-001"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0038-OBS-001",
+      "date": "2023-05-27",
+      "name": "Creatinine",
+      "value": 1.28,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0038-OBS-002",
+      "date": "2023-05-27",
+      "name": "eGFR",
+      "value": 40.7,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0038-OBS-003",
+      "date": "2023-05-27",
+      "name": "HbA1c",
+      "value": 7.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0038-OBS-004",
+      "date": "2023-05-27",
+      "name": "Fasting Glucose",
+      "value": 137.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0038-OBS-005",
+      "date": "2022-02-17",
+      "name": "Creatinine",
+      "value": 1.35,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0038-OBS-006",
+      "date": "2022-02-17",
+      "name": "eGFR",
+      "value": 57.8,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0038-OBS-007",
+      "date": "2022-01-29",
+      "name": "Creatinine",
+      "value": 1.63,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-005",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0038-OBS-008",
+      "date": "2022-01-29",
+      "name": "eGFR",
+      "value": 36.0,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-005",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0038-OBS-009",
+      "date": "2022-01-29",
+      "name": "HbA1c",
+      "value": 7.1,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-005",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0038-OBS-010",
+      "date": "2022-01-29",
+      "name": "Fasting Glucose",
+      "value": 175.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-005",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0038-OBS-011",
+      "date": "2023-01-05",
+      "name": "HbA1c",
+      "value": 9.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0038-OBS-012",
+      "date": "2023-01-05",
+      "name": "Fasting Glucose",
+      "value": 138.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0038-OBS-013",
+      "date": "2023-01-05",
+      "name": "Creatinine",
+      "value": 1.41,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0038-OBS-014",
+      "date": "2023-01-05",
+      "name": "eGFR",
+      "value": 41.1,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0038-OBS-015",
+      "date": "2022-05-30",
+      "name": "HbA1c",
+      "value": 7.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-016",
+      "date": "2022-05-30",
+      "name": "Fasting Glucose",
+      "value": 138.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-017",
+      "date": "2022-05-30",
+      "name": "Creatinine",
+      "value": 1.57,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-018",
+      "date": "2022-05-30",
+      "name": "eGFR",
+      "value": 58.1,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-019",
+      "date": "2023-06-18",
+      "name": "Creatinine",
+      "value": 2.18,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-020",
+      "date": "2023-06-18",
+      "name": "eGFR",
+      "value": 44.5,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-021",
+      "date": "2023-06-18",
+      "name": "HbA1c",
+      "value": 9.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0038-OBS-022",
+      "date": "2023-06-18",
+      "name": "Fasting Glucose",
+      "value": 128.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0038-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0038-ENC-002",
+      "date": "2018-06-20",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 3",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "118/84",
+        "heart_rate": 74,
+        "respiratory_rate": 19,
+        "temperature_c": 36.7,
+        "spo2": 99,
+        "weight_kg": 58.3
+      },
+      "notes": "Chronic Kidney Disease, Stage 3 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-001",
+      "date": "2018-08-23",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/91",
+        "heart_rate": 82,
+        "respiratory_rate": 17,
+        "temperature_c": 37.0,
+        "spo2": 95,
+        "weight_kg": 80.7
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-005",
+      "date": "2022-01-29",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/78",
+        "heart_rate": 72,
+        "respiratory_rate": 18,
+        "temperature_c": 36.6,
+        "spo2": 96,
+        "weight_kg": 71.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-004",
+      "date": "2022-02-17",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/94",
+        "heart_rate": 70,
+        "respiratory_rate": 14,
+        "temperature_c": 36.8,
+        "spo2": 96,
+        "weight_kg": 80.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-007",
+      "date": "2022-05-30",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/93",
+        "heart_rate": 98,
+        "respiratory_rate": 14,
+        "temperature_c": 36.3,
+        "spo2": 97,
+        "weight_kg": 81.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-006",
+      "date": "2023-01-05",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "141/90",
+        "heart_rate": 89,
+        "respiratory_rate": 15,
+        "temperature_c": 36.3,
+        "spo2": 94,
+        "weight_kg": 92.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-003",
+      "date": "2023-05-27",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/76",
+        "heart_rate": 76,
+        "respiratory_rate": 16,
+        "temperature_c": 37.1,
+        "spo2": 99,
+        "weight_kg": 69.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0038-ENC-008",
+      "date": "2023-06-18",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "138/94",
+        "heart_rate": 93,
+        "respiratory_rate": 20,
+        "temperature_c": 36.5,
+        "spo2": 93,
+        "weight_kg": 68.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0038-DOC-003",
+      "date": "2022-01-29",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2022-01-29.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0038-ENC-005"
+    },
+    {
+      "document_id": "CI-0038-DOC-002",
+      "date": "2022-02-17",
+      "type": "Lab Report",
+      "file_name": "Consultation_2022-02-17.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0038-ENC-004"
+    },
+    {
+      "document_id": "CI-0038-DOC-005",
+      "date": "2022-05-30",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2022-05-30.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0038-ENC-007"
+    },
+    {
+      "document_id": "CI-0038-DOC-004",
+      "date": "2023-01-05",
+      "type": "Progress Note",
+      "file_name": "Prescription_2023-01-05.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0038-ENC-006"
+    },
+    {
+      "document_id": "CI-0038-DOC-001",
+      "date": "2023-05-27",
+      "type": "Lab Report",
+      "file_name": "Consultation_2023-05-27.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0038-ENC-003"
+    },
+    {
+      "document_id": "CI-0038-DOC-006",
+      "date": "2023-06-18",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2023-06-18.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0038-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-06-20",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 3 diagnosed",
+      "encounter_id": "CI-0038-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2018-08-23",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0038-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2018-09-12",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "1000 mg BD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0038-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-01-29",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0038-ENC-005",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-02-17",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0038-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-05-30",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0038-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-01-05",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0038-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-06-18",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0038-ENC-008",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

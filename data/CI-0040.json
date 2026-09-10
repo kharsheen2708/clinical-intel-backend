@@ -1,0 +1,973 @@
+{
+  "patient_id": "CI-0040",
+  "synthetic": true,
+  "name": {
+    "first": "Nisha",
+    "last": "Total Cholesterol",
+    "display": "Nisha Total Cholesterol"
+  },
+  "date_of_birth": "1986-05-25",
+  "age": 40,
+  "gender": "Male",
+  "abha_id": "SYN-0040-2380",
+  "contact": {
+    "phone": "+91-9139696423",
+    "city": "Nagpur"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Ibuprofen Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "code": "E78.5"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 2",
+        "code": "N18.2"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "40 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Rosuvastatin",
+        "dose": "10 mg",
+        "frequency": "OD",
+        "indication": "Hyperlipidemia"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2026-07-01",
+          "value": 183.4,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-07-16",
+          "value": 140.8,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2026-07-01",
+          "value": 6.6,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-07-16",
+          "value": 8.8,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "LDL",
+        "previous": {
+          "date": "2026-06-19",
+          "value": 93.5,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-07-01",
+          "value": 113.4,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Total Cholesterol",
+        "previous": {
+          "date": "2026-06-19",
+          "value": 205.7,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-07-01",
+          "value": 189.3,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Amlodipine dose",
+        "previous": null,
+        "current": {
+          "date": "2022-12-09",
+          "value": "40 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0040-ENC-011",
+      "date": "2025-07-17",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "164/95",
+        "heart_rate": 80,
+        "respiratory_rate": 19,
+        "temperature_c": 36.3,
+        "spo2": 95,
+        "weight_kg": 93.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0040-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-11-26",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0040-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-03-19",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0040-COND-003",
+      "name": "Hyperlipidemia",
+      "code": "E78.5",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-02-04",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0040-COND-004",
+      "name": "Chronic Kidney Disease, Stage 2",
+      "code": "N18.2",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-01-22",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0040-ALG-001",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-05-08",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    },
+    {
+      "allergy_id": "CI-0040-ALG-002",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-02-09",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0040-MED-001",
+      "name": "Sitagliptin",
+      "dose": "100 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2020-05-02",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0040-ENC-001"
+    },
+    {
+      "medication_id": "CI-0040-MED-002",
+      "name": "Amlodipine",
+      "dose": "40 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2022-01-26",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0040-ENC-002",
+      "last_changed": "2022-12-09"
+    },
+    {
+      "medication_id": "CI-0040-MED-003",
+      "name": "Rosuvastatin",
+      "dose": "10 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hyperlipidemia",
+      "start_date": "2021-10-16",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0040-ENC-003"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0040-OBS-001",
+      "date": "2026-06-19",
+      "name": "HbA1c",
+      "value": 9.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-002",
+      "date": "2026-06-19",
+      "name": "Fasting Glucose",
+      "value": 147.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-003",
+      "date": "2026-06-19",
+      "name": "LDL",
+      "value": 93.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-004",
+      "date": "2026-06-19",
+      "name": "Total Cholesterol",
+      "value": 205.7,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-005",
+      "date": "2023-06-19",
+      "name": "HbA1c",
+      "value": 9.5,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0040-OBS-006",
+      "date": "2023-06-19",
+      "name": "Fasting Glucose",
+      "value": 171.7,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0040-OBS-007",
+      "date": "2022-11-06",
+      "name": "HbA1c",
+      "value": 9.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-008",
+      "date": "2022-11-06",
+      "name": "Fasting Glucose",
+      "value": 175.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-009",
+      "date": "2022-12-09",
+      "name": "Systolic BP",
+      "value": 156.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-010",
+      "date": "2022-12-09",
+      "name": "Diastolic BP",
+      "value": 73.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-011",
+      "date": "2022-12-09",
+      "name": "LDL",
+      "value": 90.2,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-012",
+      "date": "2022-12-09",
+      "name": "Total Cholesterol",
+      "value": 247.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-013",
+      "date": "2026-07-16",
+      "name": "HbA1c",
+      "value": 8.8,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-009",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-014",
+      "date": "2026-07-16",
+      "name": "Fasting Glucose",
+      "value": 140.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-009",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-015",
+      "date": "2026-07-01",
+      "name": "LDL",
+      "value": 113.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-016",
+      "date": "2026-07-01",
+      "name": "Total Cholesterol",
+      "value": 189.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-017",
+      "date": "2026-07-01",
+      "name": "HbA1c",
+      "value": 6.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-018",
+      "date": "2026-07-01",
+      "name": "Fasting Glucose",
+      "value": 183.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0040-OBS-019",
+      "date": "2025-07-17",
+      "name": "Creatinine",
+      "value": 1.33,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-020",
+      "date": "2025-07-17",
+      "name": "eGFR",
+      "value": 51.6,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-021",
+      "date": "2025-07-17",
+      "name": "LDL",
+      "value": 110.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0040-OBS-022",
+      "date": "2025-07-17",
+      "name": "Total Cholesterol",
+      "value": 214.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0040-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0040-ENC-001",
+      "date": "2020-04-25",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/87",
+        "heart_rate": 80,
+        "respiratory_rate": 14,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 75.5
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-004",
+      "date": "2021-06-13",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 2",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/82",
+        "heart_rate": 91,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 98,
+        "weight_kg": 93.4
+      },
+      "notes": "Chronic Kidney Disease, Stage 2 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-003",
+      "date": "2021-10-09",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to hyperlipidemia",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "146/94",
+        "heart_rate": 89,
+        "respiratory_rate": 14,
+        "temperature_c": 36.5,
+        "spo2": 96,
+        "weight_kg": 73.8
+      },
+      "notes": "Hyperlipidemia documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-002",
+      "date": "2022-01-11",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/85",
+        "heart_rate": 82,
+        "respiratory_rate": 18,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 90.6
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-007",
+      "date": "2022-11-06",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "147/98",
+        "heart_rate": 67,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 97,
+        "weight_kg": 88.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-008",
+      "date": "2022-12-09",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/86",
+        "heart_rate": 92,
+        "respiratory_rate": 21,
+        "temperature_c": 37.2,
+        "spo2": 93,
+        "weight_kg": 61.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-006",
+      "date": "2023-06-19",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "145/75",
+        "heart_rate": 99,
+        "respiratory_rate": 17,
+        "temperature_c": 36.4,
+        "spo2": 94,
+        "weight_kg": 75.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-011",
+      "date": "2025-07-17",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "164/95",
+        "heart_rate": 80,
+        "respiratory_rate": 19,
+        "temperature_c": 36.3,
+        "spo2": 95,
+        "weight_kg": 93.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-005",
+      "date": "2026-06-19",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "126/77",
+        "heart_rate": 72,
+        "respiratory_rate": 16,
+        "temperature_c": 37.0,
+        "spo2": 93,
+        "weight_kg": 89.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-010",
+      "date": "2026-07-01",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "127/96",
+        "heart_rate": 60,
+        "respiratory_rate": 15,
+        "temperature_c": 36.4,
+        "spo2": 95,
+        "weight_kg": 72.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0040-ENC-009",
+      "date": "2026-07-16",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "141/94",
+        "heart_rate": 86,
+        "respiratory_rate": 19,
+        "temperature_c": 37.1,
+        "spo2": 94,
+        "weight_kg": 61.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0040-DOC-003",
+      "date": "2022-11-06",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-11-06.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0040-ENC-007"
+    },
+    {
+      "document_id": "CI-0040-DOC-004",
+      "date": "2022-12-09",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2022-12-09.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0040-ENC-008"
+    },
+    {
+      "document_id": "CI-0040-DOC-002",
+      "date": "2023-06-19",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2023-06-19.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0040-ENC-006"
+    },
+    {
+      "document_id": "CI-0040-DOC-007",
+      "date": "2025-07-17",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2025-07-17.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0040-ENC-011"
+    },
+    {
+      "document_id": "CI-0040-DOC-008",
+      "date": "2025-07-17",
+      "type": "Progress Note",
+      "file_name": "Prescription_2025-07-17.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0040-ENC-011"
+    },
+    {
+      "document_id": "CI-0040-DOC-001",
+      "date": "2026-06-19",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2026-06-19.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0040-ENC-005"
+    },
+    {
+      "document_id": "CI-0040-DOC-006",
+      "date": "2026-07-01",
+      "type": "Lab Report",
+      "file_name": "Consultation_2026-07-01.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0040-ENC-010"
+    },
+    {
+      "document_id": "CI-0040-DOC-005",
+      "date": "2026-07-16",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2026-07-16.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0040-ENC-009"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2020-04-25",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0040-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2020-05-02",
+      "type": "medication_started",
+      "title": "Sitagliptin started",
+      "details": "100 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0040-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2021-06-13",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 2 diagnosed",
+      "encounter_id": "CI-0040-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2021-10-09",
+      "type": "diagnosis",
+      "title": "Hyperlipidemia diagnosed",
+      "encounter_id": "CI-0040-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2021-10-16",
+      "type": "medication_started",
+      "title": "Rosuvastatin started",
+      "details": "10 mg OD for Hyperlipidemia",
+      "encounter_id": "CI-0040-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-01-11",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0040-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-01-26",
+      "type": "medication_started",
+      "title": "Amlodipine started",
+      "details": "5 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0040-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-11-06",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0040-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-12-09",
+      "type": "medication_changed",
+      "title": "Amlodipine dose changed",
+      "details": "5 mg → 40 mg",
+      "encounter_id": "CI-0040-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-06-19",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0040-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2025-07-17",
+      "type": "hospitalization",
+      "title": "Hospitalization: Hyperglycemia",
+      "encounter_id": "CI-0040-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0040-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0040-ENC-009",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

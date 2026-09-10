@@ -1,0 +1,682 @@
+{
+  "patient_id": "CI-0011",
+  "synthetic": true,
+  "name": {
+    "first": "Ananya",
+    "last": "eGFR",
+    "display": "Ananya eGFR"
+  },
+  "date_of_birth": "1986-11-19",
+  "age": 40,
+  "gender": "Male",
+  "abha_id": "SYN-0011-1797",
+  "contact": {
+    "phone": "+91-9362781292",
+    "city": "Mumbai"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 2",
+        "code": "N18.2"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "2000 mg",
+        "frequency": "BD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Diclofenac",
+        "dose": "50 mg",
+        "frequency": "BD",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Creatinine",
+        "previous": {
+          "date": "2024-09-06",
+          "value": 0.98,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2025-08-31",
+          "value": 1.11,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "eGFR",
+        "previous": {
+          "date": "2024-09-06",
+          "value": 82.3,
+          "unit": "mL/min/1.73m²"
+        },
+        "current": {
+          "date": "2025-08-31",
+          "value": 72.7,
+          "unit": "mL/min/1.73m²"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2024-09-06",
+          "value": "2000 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0011-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-07-02",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0011-COND-002",
+      "name": "Chronic Kidney Disease, Stage 2",
+      "code": "N18.2",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-11-29",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0011-COND-003",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-08-13",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [],
+  "medications": [
+    {
+      "medication_id": "CI-0011-MED-001",
+      "name": "Metformin",
+      "dose": "2000 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2019-11-16",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0011-ENC-001",
+      "last_changed": "2024-09-06"
+    },
+    {
+      "medication_id": "CI-0011-MED-002",
+      "name": "Diclofenac",
+      "dose": "50 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2021-01-27",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0011-ENC-003"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0011-OBS-001",
+      "date": "2024-11-21",
+      "name": "HbA1c",
+      "value": 7.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0011-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0011-OBS-002",
+      "date": "2024-11-21",
+      "name": "Fasting Glucose",
+      "value": 133.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0011-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0011-OBS-003",
+      "date": "2025-08-31",
+      "name": "Creatinine",
+      "value": 1.11,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0011-ENC-005",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0011-OBS-004",
+      "date": "2025-08-31",
+      "name": "eGFR",
+      "value": 72.7,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0011-ENC-005",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0011-OBS-005",
+      "date": "2024-09-06",
+      "name": "Creatinine",
+      "value": 0.98,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0011-ENC-006",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0011-OBS-006",
+      "date": "2024-09-06",
+      "name": "eGFR",
+      "value": 82.3,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0011-ENC-006",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0011-ENC-001",
+      "date": "2019-10-20",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "137/90",
+        "heart_rate": 68,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 99,
+        "weight_kg": 76.0
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-002",
+      "date": "2020-05-27",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 2",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "130/97",
+        "heart_rate": 69,
+        "respiratory_rate": 16,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 80.9
+      },
+      "notes": "Chronic Kidney Disease, Stage 2 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-003",
+      "date": "2021-01-01",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/82",
+        "heart_rate": 80,
+        "respiratory_rate": 18,
+        "temperature_c": 37.0,
+        "spo2": 96,
+        "weight_kg": 62.0
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-010",
+      "date": "2022-08-31",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "118/96",
+        "heart_rate": 61,
+        "respiratory_rate": 18,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 78.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-007",
+      "date": "2022-12-03",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "123/88",
+        "heart_rate": 88,
+        "respiratory_rate": 14,
+        "temperature_c": 36.8,
+        "spo2": 97,
+        "weight_kg": 72.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-011",
+      "date": "2023-05-22",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/97",
+        "heart_rate": 86,
+        "respiratory_rate": 14,
+        "temperature_c": 36.6,
+        "spo2": 93,
+        "weight_kg": 59.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-009",
+      "date": "2024-08-24",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "141/84",
+        "heart_rate": 88,
+        "respiratory_rate": 20,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 96.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-006",
+      "date": "2024-09-06",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "133/93",
+        "heart_rate": 98,
+        "respiratory_rate": 15,
+        "temperature_c": 36.9,
+        "spo2": 97,
+        "weight_kg": 85.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-004",
+      "date": "2024-11-21",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "148/82",
+        "heart_rate": 75,
+        "respiratory_rate": 14,
+        "temperature_c": 36.6,
+        "spo2": 94,
+        "weight_kg": 74.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-005",
+      "date": "2025-08-31",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "128/84",
+        "heart_rate": 92,
+        "respiratory_rate": 18,
+        "temperature_c": 37.1,
+        "spo2": 98,
+        "weight_kg": 94.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0011-ENC-008",
+      "date": "2025-10-09",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "155/74",
+        "heart_rate": 62,
+        "respiratory_rate": 20,
+        "temperature_c": 36.7,
+        "spo2": 93,
+        "weight_kg": 78.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0011-DOC-007",
+      "date": "2022-08-31",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2022-08-31.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0011-ENC-010"
+    },
+    {
+      "document_id": "CI-0011-DOC-004",
+      "date": "2022-12-03",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2022-12-03.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0011-ENC-007"
+    },
+    {
+      "document_id": "CI-0011-DOC-008",
+      "date": "2023-05-22",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2023-05-22.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0011-ENC-011"
+    },
+    {
+      "document_id": "CI-0011-DOC-006",
+      "date": "2024-08-24",
+      "type": "Lab Report",
+      "file_name": "Prescription_2024-08-24.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0011-ENC-009"
+    },
+    {
+      "document_id": "CI-0011-DOC-003",
+      "date": "2024-09-06",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2024-09-06.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0011-ENC-006"
+    },
+    {
+      "document_id": "CI-0011-DOC-001",
+      "date": "2024-11-21",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2024-11-21.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0011-ENC-004"
+    },
+    {
+      "document_id": "CI-0011-DOC-002",
+      "date": "2025-08-31",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2025-08-31.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0011-ENC-005"
+    },
+    {
+      "document_id": "CI-0011-DOC-005",
+      "date": "2025-10-09",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2025-10-09.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0011-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-10-20",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0011-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-11-16",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "1000 mg BD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0011-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2020-05-27",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 2 diagnosed",
+      "encounter_id": "CI-0011-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2021-01-01",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0011-ENC-003",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2021-01-27",
+      "type": "medication_started",
+      "title": "Diclofenac started",
+      "details": "50 mg BD for Osteoarthritis",
+      "encounter_id": "CI-0011-ENC-003",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-08-31",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-010",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-12-03",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-007",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-05-22",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-011",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-08-24",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-09-06",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "1000 mg → 2000 mg",
+      "encounter_id": "CI-0011-ENC-006",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2024-11-21",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2025-08-31",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-005",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2025-10-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0011-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

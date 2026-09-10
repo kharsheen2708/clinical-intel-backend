@@ -1,0 +1,649 @@
+{
+  "patient_id": "CI-0064",
+  "synthetic": true,
+  "name": {
+    "first": "Arjun",
+    "last": "SpO2",
+    "display": "Arjun SpO2"
+  },
+  "date_of_birth": "1961-08-07",
+  "age": 65,
+  "gender": "Female",
+  "abha_id": "SYN-0064-3827",
+  "contact": {
+    "phone": "+91-9576095915",
+    "city": "Mumbai"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Asthma",
+        "code": "J45.909"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Budesonide",
+        "dose": "200 mcg",
+        "frequency": "BD",
+        "indication": "Asthma"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "SpO2",
+        "previous": {
+          "date": "2025-07-21",
+          "value": 98.1,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-02-05",
+          "value": 97.0,
+          "unit": "%"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0064-ENC-010",
+      "date": "2022-07-19",
+      "type": "Inpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/77",
+        "heart_rate": 97,
+        "respiratory_rate": 19,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 72.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0064-COND-001",
+      "name": "Asthma",
+      "code": "J45.909",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-06-24",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0064-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-10-30",
+      "source_hospital": "Apollo Heights Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0064-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-02-01",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0064-MED-001",
+      "name": "Budesonide",
+      "dose": "200 mcg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Asthma",
+      "start_date": "2017-12-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0064-ENC-001"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0064-OBS-001",
+      "date": "2023-04-08",
+      "name": "SpO2",
+      "value": 93.5,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-002",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-002",
+      "date": "2026-02-05",
+      "name": "SpO2",
+      "value": 97.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-003",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-003",
+      "date": "2022-12-11",
+      "name": "SpO2",
+      "value": 97.8,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-004",
+      "date": "2023-11-01",
+      "name": "SpO2",
+      "value": 98.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-005",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-005",
+      "date": "2025-07-21",
+      "name": "SpO2",
+      "value": 98.1,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-006",
+      "date": "2023-03-14",
+      "name": "SpO2",
+      "value": 95.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0064-OBS-007",
+      "date": "2024-10-26",
+      "name": "SpO2",
+      "value": 98.2,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-008",
+      "date": "2024-10-01",
+      "name": "SpO2",
+      "value": 93.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-009",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0064-OBS-009",
+      "date": "2022-07-19",
+      "name": "SpO2",
+      "value": 98.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0064-ENC-010",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0064-ENC-001",
+      "date": "2017-12-13",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to asthma",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "152/86",
+        "heart_rate": 83,
+        "respiratory_rate": 14,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 78.8
+      },
+      "notes": "Asthma documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-010",
+      "date": "2022-07-19",
+      "type": "Inpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/77",
+        "heart_rate": 97,
+        "respiratory_rate": 19,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 72.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-004",
+      "date": "2022-12-11",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "148/72",
+        "heart_rate": 80,
+        "respiratory_rate": 15,
+        "temperature_c": 37.4,
+        "spo2": 93,
+        "weight_kg": 60.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-007",
+      "date": "2023-03-14",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/95",
+        "heart_rate": 60,
+        "respiratory_rate": 17,
+        "temperature_c": 36.8,
+        "spo2": 97,
+        "weight_kg": 63.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-002",
+      "date": "2023-04-08",
+      "type": "Inpatient",
+      "department": "Internal Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "141/91",
+        "heart_rate": 85,
+        "respiratory_rate": 18,
+        "temperature_c": 37.0,
+        "spo2": 98,
+        "weight_kg": 83.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-005",
+      "date": "2023-11-01",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/94",
+        "heart_rate": 90,
+        "respiratory_rate": 19,
+        "temperature_c": 36.7,
+        "spo2": 97,
+        "weight_kg": 68.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-009",
+      "date": "2024-10-01",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/91",
+        "heart_rate": 69,
+        "respiratory_rate": 16,
+        "temperature_c": 37.3,
+        "spo2": 94,
+        "weight_kg": 58.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-008",
+      "date": "2024-10-26",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/94",
+        "heart_rate": 76,
+        "respiratory_rate": 18,
+        "temperature_c": 37.1,
+        "spo2": 97,
+        "weight_kg": 90.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-006",
+      "date": "2025-07-21",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/75",
+        "heart_rate": 95,
+        "respiratory_rate": 20,
+        "temperature_c": 37.1,
+        "spo2": 94,
+        "weight_kg": 56.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0064-ENC-003",
+      "date": "2026-02-05",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "139/90",
+        "heart_rate": 97,
+        "respiratory_rate": 18,
+        "temperature_c": 37.5,
+        "spo2": 98,
+        "weight_kg": 92.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0064-DOC-011",
+      "date": "2022-07-19",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2022-07-19.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0064-ENC-010"
+    },
+    {
+      "document_id": "CI-0064-DOC-012",
+      "date": "2022-07-19",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-07-19.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0064-ENC-010"
+    },
+    {
+      "document_id": "CI-0064-DOC-004",
+      "date": "2022-12-11",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2022-12-11.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0064-ENC-004"
+    },
+    {
+      "document_id": "CI-0064-DOC-005",
+      "date": "2022-12-11",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2022-12-11.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0064-ENC-004"
+    },
+    {
+      "document_id": "CI-0064-DOC-008",
+      "date": "2023-03-14",
+      "type": "Prescription",
+      "file_name": "Prescription_2023-03-14.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0064-ENC-007"
+    },
+    {
+      "document_id": "CI-0064-DOC-001",
+      "date": "2023-04-08",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2023-04-08.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0064-ENC-002"
+    },
+    {
+      "document_id": "CI-0064-DOC-002",
+      "date": "2023-04-08",
+      "type": "Lab Report",
+      "file_name": "Consultation_2023-04-08.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0064-ENC-002"
+    },
+    {
+      "document_id": "CI-0064-DOC-006",
+      "date": "2023-11-01",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2023-11-01.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0064-ENC-005"
+    },
+    {
+      "document_id": "CI-0064-DOC-010",
+      "date": "2024-10-01",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2024-10-01.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0064-ENC-009"
+    },
+    {
+      "document_id": "CI-0064-DOC-009",
+      "date": "2024-10-26",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-10-26.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0064-ENC-008"
+    },
+    {
+      "document_id": "CI-0064-DOC-007",
+      "date": "2025-07-21",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2025-07-21.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0064-ENC-006"
+    },
+    {
+      "document_id": "CI-0064-DOC-003",
+      "date": "2026-02-05",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2026-02-05.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0064-ENC-003"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017-12-13",
+      "type": "diagnosis",
+      "title": "Asthma diagnosed",
+      "encounter_id": "CI-0064-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2017-12-24",
+      "type": "medication_started",
+      "title": "Budesonide started",
+      "details": "200 mcg BD for Asthma",
+      "encounter_id": "CI-0064-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-07-19",
+      "type": "hospitalization",
+      "title": "Hospitalization: Hyperglycemia",
+      "encounter_id": "CI-0064-ENC-010",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-12-11",
+      "type": "hospitalization",
+      "title": "Hospitalization: Uncontrolled Blood Pressure",
+      "encounter_id": "CI-0064-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-04-08",
+      "type": "hospitalization",
+      "title": "Hospitalization: Hyperglycemia",
+      "encounter_id": "CI-0064-ENC-002",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2024-10-26",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0064-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2026-02-05",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0064-ENC-003",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

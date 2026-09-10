@@ -1,0 +1,629 @@
+{
+  "patient_id": "CI-0048",
+  "synthetic": true,
+  "name": {
+    "first": "Vihaan",
+    "last": "Fasting Glucose",
+    "display": "Vihaan Fasting Glucose"
+  },
+  "date_of_birth": "1974-12-19",
+  "age": 52,
+  "gender": "Male",
+  "abha_id": "SYN-0048-9035",
+  "contact": {
+    "phone": "+91-9846359545",
+    "city": "Thane"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Glimepiride",
+        "dose": "1 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Diclofenac",
+        "dose": "50 mg",
+        "frequency": "BD",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2023-10-25",
+          "value": 105.8,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-07-23",
+          "value": 115.9,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2023-10-25",
+          "value": 8.7,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-07-23",
+          "value": 6.9,
+          "unit": "%"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0048-ENC-006",
+      "date": "2022-02-17",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/87",
+        "heart_rate": 87,
+        "respiratory_rate": 18,
+        "temperature_c": 37.0,
+        "spo2": 93,
+        "weight_kg": 69.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0048-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-02-05",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0048-COND-002",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-03-09",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [],
+  "medications": [
+    {
+      "medication_id": "CI-0048-MED-001",
+      "name": "Glimepiride",
+      "dose": "1 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2019-05-05",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0048-ENC-001"
+    },
+    {
+      "medication_id": "CI-0048-MED-002",
+      "name": "Diclofenac",
+      "dose": "50 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2018-05-05",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0048-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0048-OBS-001",
+      "date": "2023-10-25",
+      "name": "HbA1c",
+      "value": 8.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0048-OBS-002",
+      "date": "2023-10-25",
+      "name": "Fasting Glucose",
+      "value": 105.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0048-OBS-003",
+      "date": "2022-03-11",
+      "name": "HbA1c",
+      "value": 6.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0048-OBS-004",
+      "date": "2022-03-11",
+      "name": "Fasting Glucose",
+      "value": 112.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0048-OBS-005",
+      "date": "2022-02-17",
+      "name": "HbA1c",
+      "value": 8.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0048-OBS-006",
+      "date": "2022-02-17",
+      "name": "Fasting Glucose",
+      "value": 178.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0048-OBS-007",
+      "date": "2026-07-23",
+      "name": "HbA1c",
+      "value": 6.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0048-OBS-008",
+      "date": "2026-07-23",
+      "name": "Fasting Glucose",
+      "value": 115.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0048-OBS-009",
+      "date": "2022-06-29",
+      "name": "HbA1c",
+      "value": 6.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0048-OBS-010",
+      "date": "2022-06-29",
+      "name": "Fasting Glucose",
+      "value": 185.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0048-ENC-008",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0048-ENC-002",
+      "date": "2018-05-02",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "151/95",
+        "heart_rate": 80,
+        "respiratory_rate": 16,
+        "temperature_c": 37.0,
+        "spo2": 96,
+        "weight_kg": 83.0
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-001",
+      "date": "2019-04-11",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "160/77",
+        "heart_rate": 63,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 82.1
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-006",
+      "date": "2022-02-17",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/87",
+        "heart_rate": 87,
+        "respiratory_rate": 18,
+        "temperature_c": 37.0,
+        "spo2": 93,
+        "weight_kg": 69.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-005",
+      "date": "2022-03-11",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "147/98",
+        "heart_rate": 84,
+        "respiratory_rate": 18,
+        "temperature_c": 37.1,
+        "spo2": 96,
+        "weight_kg": 70.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-008",
+      "date": "2022-06-29",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "150/81",
+        "heart_rate": 83,
+        "respiratory_rate": 16,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 55.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-003",
+      "date": "2023-10-25",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "146/94",
+        "heart_rate": 90,
+        "respiratory_rate": 18,
+        "temperature_c": 37.4,
+        "spo2": 94,
+        "weight_kg": 64.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-004",
+      "date": "2024-02-11",
+      "type": "Inpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "121/75",
+        "heart_rate": 92,
+        "respiratory_rate": 19,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 82.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0048-ENC-007",
+      "date": "2026-07-23",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "160/75",
+        "heart_rate": 71,
+        "respiratory_rate": 16,
+        "temperature_c": 36.3,
+        "spo2": 96,
+        "weight_kg": 89.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0048-DOC-005",
+      "date": "2022-02-17",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2022-02-17.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0048-ENC-006"
+    },
+    {
+      "document_id": "CI-0048-DOC-006",
+      "date": "2022-02-17",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2022-02-17.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0048-ENC-006"
+    },
+    {
+      "document_id": "CI-0048-DOC-004",
+      "date": "2022-03-11",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2022-03-11.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0048-ENC-005"
+    },
+    {
+      "document_id": "CI-0048-DOC-008",
+      "date": "2022-06-29",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2022-06-29.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0048-ENC-008"
+    },
+    {
+      "document_id": "CI-0048-DOC-001",
+      "date": "2023-10-25",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2023-10-25.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0048-ENC-003"
+    },
+    {
+      "document_id": "CI-0048-DOC-002",
+      "date": "2024-02-11",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2024-02-11.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0048-ENC-004"
+    },
+    {
+      "document_id": "CI-0048-DOC-003",
+      "date": "2024-02-11",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2024-02-11.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0048-ENC-004"
+    },
+    {
+      "document_id": "CI-0048-DOC-007",
+      "date": "2026-07-23",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2026-07-23.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0048-ENC-007"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-05-02",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0048-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2018-05-05",
+      "type": "medication_started",
+      "title": "Diclofenac started",
+      "details": "50 mg BD for Osteoarthritis",
+      "encounter_id": "CI-0048-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2019-04-11",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0048-ENC-001",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2019-05-05",
+      "type": "medication_started",
+      "title": "Glimepiride started",
+      "details": "1 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0048-ENC-001",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-02-17",
+      "type": "hospitalization",
+      "title": "Hospitalization: Uncontrolled Blood Pressure",
+      "encounter_id": "CI-0048-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-03-11",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0048-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-02-11",
+      "type": "hospitalization",
+      "title": "Hospitalization: Uncontrolled Blood Pressure",
+      "encounter_id": "CI-0048-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0048-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "patient_id": "CI-0054",
+  "synthetic": true,
+  "name": {
+    "first": "Ira",
+    "last": "Total Cholesterol",
+    "display": "Ira Total Cholesterol"
+  },
+  "date_of_birth": "1961-10-28",
+  "age": 65,
+  "gender": "Female",
+  "abha_id": "SYN-0054-4074",
+  "contact": {
+    "phone": "+91-9551160662",
+    "city": "Nagpur"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Sulfonamides Allergy",
+      "Cardiac History",
+      "Blood thinner"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "code": "E78.5"
+      },
+      {
+        "name": "Coronary Artery Disease",
+        "code": "I25.10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Telmisartan",
+        "dose": "80 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "OD",
+        "indication": "Hyperlipidemia"
+      },
+      {
+        "name": "Clopidogrel",
+        "dose": "75 mg",
+        "frequency": "OD",
+        "indication": "Coronary Artery Disease"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2024-01-22",
+          "value": 74.6,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-05-22",
+          "value": 94.3,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "LDL",
+        "previous": {
+          "date": "2024-01-22",
+          "value": 80.5,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2025-05-22",
+          "value": 149.0,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2024-01-22",
+          "value": 143.0,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-05-22",
+          "value": 118.1,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Total Cholesterol",
+        "previous": {
+          "date": "2024-01-22",
+          "value": 187.6,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2025-05-22",
+          "value": 247.9,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Telmisartan dose",
+        "previous": null,
+        "current": {
+          "date": "2025-05-22",
+          "value": "80 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0054-ENC-005",
+      "date": "2024-01-22",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "shortness of breath",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/93",
+        "heart_rate": 62,
+        "respiratory_rate": 14,
+        "temperature_c": 37.2,
+        "spo2": 94,
+        "weight_kg": 85.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0054-COND-001",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-08-30",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0054-COND-002",
+      "name": "Hyperlipidemia",
+      "code": "E78.5",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-11-06",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0054-COND-003",
+      "name": "Coronary Artery Disease",
+      "code": "I25.10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-12-10",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0054-ALG-001",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-02-04",
+      "source_hospital": "Apollo Heights Hospital",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    },
+    {
+      "allergy_id": "CI-0054-ALG-002",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-05-30",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0054-MED-001",
+      "name": "Telmisartan",
+      "dose": "80 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2023-07-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0054-ENC-001",
+      "last_changed": "2025-05-22"
+    },
+    {
+      "medication_id": "CI-0054-MED-002",
+      "name": "Atorvastatin",
+      "dose": "20 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hyperlipidemia",
+      "start_date": "2023-09-27",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0054-ENC-002"
+    },
+    {
+      "medication_id": "CI-0054-MED-003",
+      "name": "Clopidogrel",
+      "dose": "75 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Coronary Artery Disease",
+      "start_date": "2023-12-05",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0054-ENC-003"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0054-OBS-001",
+      "date": "2023-12-25",
+      "name": "LDL",
+      "value": 155.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0054-OBS-002",
+      "date": "2023-12-25",
+      "name": "Total Cholesterol",
+      "value": 190.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0054-OBS-003",
+      "date": "2024-01-22",
+      "name": "Systolic BP",
+      "value": 143.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0054-OBS-004",
+      "date": "2024-01-22",
+      "name": "Diastolic BP",
+      "value": 74.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0054-OBS-005",
+      "date": "2024-01-22",
+      "name": "LDL",
+      "value": 80.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0054-OBS-006",
+      "date": "2024-01-22",
+      "name": "Total Cholesterol",
+      "value": 187.6,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0054-OBS-007",
+      "date": "2023-04-02",
+      "name": "LDL",
+      "value": 89.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0054-OBS-008",
+      "date": "2023-04-02",
+      "name": "Total Cholesterol",
+      "value": 182.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0054-OBS-009",
+      "date": "2025-05-22",
+      "name": "Systolic BP",
+      "value": 118.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0054-OBS-010",
+      "date": "2025-05-22",
+      "name": "Diastolic BP",
+      "value": 94.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0054-OBS-011",
+      "date": "2025-05-22",
+      "name": "LDL",
+      "value": 149.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0054-OBS-012",
+      "date": "2025-05-22",
+      "name": "Total Cholesterol",
+      "value": 247.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0054-OBS-013",
+      "date": "2023-03-10",
+      "name": "Systolic BP",
+      "value": 136.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0054-OBS-014",
+      "date": "2023-03-10",
+      "name": "Diastolic BP",
+      "value": 76.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0054-OBS-015",
+      "date": "2022-04-21",
+      "name": "Systolic BP",
+      "value": 149.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0054-OBS-016",
+      "date": "2022-04-21",
+      "name": "Diastolic BP",
+      "value": 81.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0054-OBS-017",
+      "date": "2022-06-09",
+      "name": "LDL",
+      "value": 137.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-010",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0054-OBS-018",
+      "date": "2022-06-09",
+      "name": "Total Cholesterol",
+      "value": 176.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0054-ENC-010",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0054-ENC-009",
+      "date": "2022-04-21",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/87",
+        "heart_rate": 90,
+        "respiratory_rate": 16,
+        "temperature_c": 37.5,
+        "spo2": 96,
+        "weight_kg": 70.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-010",
+      "date": "2022-06-09",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "127/86",
+        "heart_rate": 69,
+        "respiratory_rate": 21,
+        "temperature_c": 37.3,
+        "spo2": 93,
+        "weight_kg": 89.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-008",
+      "date": "2023-03-10",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "122/80",
+        "heart_rate": 85,
+        "respiratory_rate": 15,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 74.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-006",
+      "date": "2023-04-02",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/74",
+        "heart_rate": 71,
+        "respiratory_rate": 15,
+        "temperature_c": 37.4,
+        "spo2": 96,
+        "weight_kg": 88.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-001",
+      "date": "2023-07-23",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "146/97",
+        "heart_rate": 70,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 99,
+        "weight_kg": 89.2
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-002",
+      "date": "2023-09-23",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to hyperlipidemia",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "133/78",
+        "heart_rate": 66,
+        "respiratory_rate": 15,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 58.9
+      },
+      "notes": "Hyperlipidemia documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-003",
+      "date": "2023-11-17",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to coronary artery disease",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "123/87",
+        "heart_rate": 68,
+        "respiratory_rate": 17,
+        "temperature_c": 36.7,
+        "spo2": 97,
+        "weight_kg": 61.5
+      },
+      "notes": "Coronary Artery Disease documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-004",
+      "date": "2023-12-25",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "146/92",
+        "heart_rate": 68,
+        "respiratory_rate": 15,
+        "temperature_c": 37.5,
+        "spo2": 96,
+        "weight_kg": 56.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-005",
+      "date": "2024-01-22",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "shortness of breath",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/93",
+        "heart_rate": 62,
+        "respiratory_rate": 14,
+        "temperature_c": 37.2,
+        "spo2": 94,
+        "weight_kg": 85.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0054-ENC-007",
+      "date": "2025-05-22",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/89",
+        "heart_rate": 69,
+        "respiratory_rate": 21,
+        "temperature_c": 36.5,
+        "spo2": 94,
+        "weight_kg": 68.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0054-DOC-007",
+      "date": "2022-04-21",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2022-04-21.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0054-ENC-009"
+    },
+    {
+      "document_id": "CI-0054-DOC-008",
+      "date": "2022-06-09",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2022-06-09.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0054-ENC-010"
+    },
+    {
+      "document_id": "CI-0054-DOC-006",
+      "date": "2023-03-10",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2023-03-10.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0054-ENC-008"
+    },
+    {
+      "document_id": "CI-0054-DOC-004",
+      "date": "2023-04-02",
+      "type": "Prescription",
+      "file_name": "Prescription_2023-04-02.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0054-ENC-006"
+    },
+    {
+      "document_id": "CI-0054-DOC-001",
+      "date": "2023-12-25",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2023-12-25.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0054-ENC-004"
+    },
+    {
+      "document_id": "CI-0054-DOC-002",
+      "date": "2024-01-22",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2024-01-22.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0054-ENC-005"
+    },
+    {
+      "document_id": "CI-0054-DOC-003",
+      "date": "2024-01-22",
+      "type": "Progress Note",
+      "file_name": "Consultation_2024-01-22.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0054-ENC-005"
+    },
+    {
+      "document_id": "CI-0054-DOC-005",
+      "date": "2025-05-22",
+      "type": "Lab Report",
+      "file_name": "Consultation_2025-05-22.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0054-ENC-007"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-04-21",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0054-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-06-09",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0054-ENC-010",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-03-10",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0054-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-04-02",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0054-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-07-23",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0054-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-07-24",
+      "type": "medication_started",
+      "title": "Telmisartan started",
+      "details": "40 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0054-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-09-23",
+      "type": "diagnosis",
+      "title": "Hyperlipidemia diagnosed",
+      "encounter_id": "CI-0054-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-09-27",
+      "type": "medication_started",
+      "title": "Atorvastatin started",
+      "details": "20 mg OD for Hyperlipidemia",
+      "encounter_id": "CI-0054-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-11-17",
+      "type": "diagnosis",
+      "title": "Coronary Artery Disease diagnosed",
+      "encounter_id": "CI-0054-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-12-05",
+      "type": "medication_started",
+      "title": "Clopidogrel started",
+      "details": "75 mg OD for Coronary Artery Disease",
+      "encounter_id": "CI-0054-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-12-25",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0054-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-01-22",
+      "type": "hospitalization",
+      "title": "Hospitalization: Shortness Of Breath",
+      "encounter_id": "CI-0054-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-05-22",
+      "type": "medication_changed",
+      "title": "Telmisartan dose changed",
+      "details": "40 mg → 80 mg",
+      "encounter_id": "CI-0054-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

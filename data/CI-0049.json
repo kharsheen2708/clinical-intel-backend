@@ -1,0 +1,687 @@
+{
+  "patient_id": "CI-0049",
+  "synthetic": true,
+  "name": {
+    "first": "Reyansh",
+    "last": "Diastolic BP",
+    "display": "Reyansh Diastolic BP"
+  },
+  "date_of_birth": "1985-11-27",
+  "age": 41,
+  "gender": "Male",
+  "abha_id": "SYN-0049-7211",
+  "contact": {
+    "phone": "+91-9283055765",
+    "city": "Thane"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Cardiac History",
+      "Blood thinner"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "code": "E78.5"
+      },
+      {
+        "name": "Coronary Artery Disease",
+        "code": "I25.10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Telmisartan",
+        "dose": "40 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Rosuvastatin",
+        "dose": "10 mg",
+        "frequency": "OD",
+        "indication": "Hyperlipidemia"
+      },
+      {
+        "name": "Aspirin",
+        "dose": "75 mg",
+        "frequency": "OD",
+        "indication": "Coronary Artery Disease"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2023-01-10",
+          "value": 71.7,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-09-03",
+          "value": 77.5,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2023-01-10",
+          "value": 123.3,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-09-03",
+          "value": 150.4,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2023-01-10",
+          "value": "1000 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0049-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-12-26",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0049-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-04-01",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0049-COND-003",
+      "name": "Hyperlipidemia",
+      "code": "E78.5",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-10-02",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0049-COND-004",
+      "name": "Coronary Artery Disease",
+      "code": "I25.10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-05-17",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [],
+  "medications": [
+    {
+      "medication_id": "CI-0049-MED-001",
+      "name": "Metformin",
+      "dose": "1000 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2023-03-25",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0049-ENC-001",
+      "last_changed": "2023-01-10"
+    },
+    {
+      "medication_id": "CI-0049-MED-002",
+      "name": "Telmisartan",
+      "dose": "40 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2023-06-10",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0049-ENC-002"
+    },
+    {
+      "medication_id": "CI-0049-MED-003",
+      "name": "Rosuvastatin",
+      "dose": "10 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hyperlipidemia",
+      "start_date": "2021-06-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0049-ENC-003"
+    },
+    {
+      "medication_id": "CI-0049-MED-004",
+      "name": "Aspirin",
+      "dose": "75 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Coronary Artery Disease",
+      "start_date": "2021-08-20",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0049-ENC-004"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0049-OBS-001",
+      "date": "2026-05-23",
+      "name": "HbA1c",
+      "value": 9.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0049-OBS-002",
+      "date": "2026-05-23",
+      "name": "Fasting Glucose",
+      "value": 138.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0049-OBS-003",
+      "date": "2024-09-03",
+      "name": "Systolic BP",
+      "value": 150.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0049-OBS-004",
+      "date": "2024-09-03",
+      "name": "Diastolic BP",
+      "value": 77.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0049-OBS-005",
+      "date": "2023-01-10",
+      "name": "LDL",
+      "value": 143.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0049-OBS-006",
+      "date": "2023-01-10",
+      "name": "Total Cholesterol",
+      "value": 244.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0049-OBS-007",
+      "date": "2023-01-10",
+      "name": "Systolic BP",
+      "value": 123.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0049-OBS-008",
+      "date": "2023-01-10",
+      "name": "Diastolic BP",
+      "value": 71.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0049-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0049-ENC-003",
+      "date": "2021-06-04",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to hyperlipidemia",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "122/80",
+        "heart_rate": 69,
+        "respiratory_rate": 18,
+        "temperature_c": 36.5,
+        "spo2": 99,
+        "weight_kg": 71.3
+      },
+      "notes": "Hyperlipidemia documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-004",
+      "date": "2021-08-08",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to coronary artery disease",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "135/76",
+        "heart_rate": 76,
+        "respiratory_rate": 16,
+        "temperature_c": 36.4,
+        "spo2": 98,
+        "weight_kg": 94.2
+      },
+      "notes": "Coronary Artery Disease documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-007",
+      "date": "2023-01-10",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "137/92",
+        "heart_rate": 65,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 95,
+        "weight_kg": 91.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-001",
+      "date": "2023-03-05",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "147/74",
+        "heart_rate": 78,
+        "respiratory_rate": 19,
+        "temperature_c": 36.8,
+        "spo2": 96,
+        "weight_kg": 76.4
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-002",
+      "date": "2023-05-29",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/83",
+        "heart_rate": 94,
+        "respiratory_rate": 18,
+        "temperature_c": 36.5,
+        "spo2": 96,
+        "weight_kg": 67.7
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-006",
+      "date": "2024-09-03",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/90",
+        "heart_rate": 77,
+        "respiratory_rate": 14,
+        "temperature_c": 37.4,
+        "spo2": 98,
+        "weight_kg": 96.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-009",
+      "date": "2025-12-09",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/96",
+        "heart_rate": 93,
+        "respiratory_rate": 17,
+        "temperature_c": 36.5,
+        "spo2": 95,
+        "weight_kg": 91.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-005",
+      "date": "2026-05-23",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "162/90",
+        "heart_rate": 78,
+        "respiratory_rate": 18,
+        "temperature_c": 37.0,
+        "spo2": 93,
+        "weight_kg": 62.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0049-ENC-008",
+      "date": "2026-07-14",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "150/93",
+        "heart_rate": 94,
+        "respiratory_rate": 15,
+        "temperature_c": 36.8,
+        "spo2": 97,
+        "weight_kg": 63.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0049-DOC-003",
+      "date": "2023-01-10",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2023-01-10.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0049-ENC-007"
+    },
+    {
+      "document_id": "CI-0049-DOC-002",
+      "date": "2024-09-03",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-09-03.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0049-ENC-006"
+    },
+    {
+      "document_id": "CI-0049-DOC-005",
+      "date": "2025-12-09",
+      "type": "Prescription",
+      "file_name": "Consultation_2025-12-09.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0049-ENC-009"
+    },
+    {
+      "document_id": "CI-0049-DOC-001",
+      "date": "2026-05-23",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2026-05-23.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0049-ENC-005"
+    },
+    {
+      "document_id": "CI-0049-DOC-004",
+      "date": "2026-07-14",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2026-07-14.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0049-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-06-04",
+      "type": "diagnosis",
+      "title": "Hyperlipidemia diagnosed",
+      "encounter_id": "CI-0049-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-06-24",
+      "type": "medication_started",
+      "title": "Rosuvastatin started",
+      "details": "10 mg OD for Hyperlipidemia",
+      "encounter_id": "CI-0049-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-08-08",
+      "type": "diagnosis",
+      "title": "Coronary Artery Disease diagnosed",
+      "encounter_id": "CI-0049-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2021-08-20",
+      "type": "medication_started",
+      "title": "Aspirin started",
+      "details": "75 mg OD for Coronary Artery Disease",
+      "encounter_id": "CI-0049-ENC-004",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-01-10",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "500 mg → 1000 mg",
+      "encounter_id": "CI-0049-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-03-05",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0049-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2023-03-25",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "500 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0049-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2023-05-29",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0049-ENC-002",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-06-10",
+      "type": "medication_started",
+      "title": "Telmisartan started",
+      "details": "40 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0049-ENC-002",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2024-09-03",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0049-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-12-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0049-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2026-05-23",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0049-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0049-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

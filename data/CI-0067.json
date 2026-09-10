@@ -1,0 +1,1083 @@
+{
+  "patient_id": "CI-0067",
+  "synthetic": true,
+  "name": {
+    "first": "Ishaan",
+    "last": "eGFR",
+    "display": "Ishaan eGFR"
+  },
+  "date_of_birth": "1973-09-24",
+  "age": 53,
+  "gender": "Male",
+  "abha_id": "SYN-0067-9761",
+  "contact": {
+    "phone": "+91-9895919598",
+    "city": "Nagpur"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Sulfonamides Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 2",
+        "code": "N18.2"
+      },
+      {
+        "name": "Hypothyroidism",
+        "code": "E03.9"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Glimepiride",
+        "dose": "1 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "10 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "50 mcg",
+        "frequency": "OD",
+        "indication": "Hypothyroidism"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Creatinine",
+        "previous": {
+          "date": "2024-01-16",
+          "value": 1.24,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-01-26",
+          "value": 1.32,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2024-10-21",
+          "value": 82.5,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2026-02-08",
+          "value": 95.9,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2024-06-17",
+          "value": 169.4,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-10-21",
+          "value": 165.9,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Free T4",
+        "previous": {
+          "date": "2024-01-16",
+          "value": 0.89,
+          "unit": "ng/dL"
+        },
+        "current": {
+          "date": "2024-04-25",
+          "value": 0.76,
+          "unit": "ng/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2024-06-17",
+          "value": 9.0,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2024-10-21",
+          "value": 7.3,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2024-10-21",
+          "value": 118.5,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2026-02-08",
+          "value": 142.6,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0067-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-02-23",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0067-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-01-06",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0067-COND-003",
+      "name": "Chronic Kidney Disease, Stage 2",
+      "code": "N18.2",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-03-17",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0067-COND-004",
+      "name": "Hypothyroidism",
+      "code": "E03.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-11-18",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0067-ALG-001",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-09-11",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    },
+    {
+      "allergy_id": "CI-0067-ALG-002",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-10-03",
+      "source_hospital": "CityCare Hospital",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0067-MED-001",
+      "name": "Glimepiride",
+      "dose": "1 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2022-11-08",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0067-ENC-001"
+    },
+    {
+      "medication_id": "CI-0067-MED-002",
+      "name": "Amlodipine",
+      "dose": "10 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2022-03-28",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0067-ENC-002",
+      "last_changed": "2024-01-16"
+    },
+    {
+      "medication_id": "CI-0067-MED-003",
+      "name": "Levothyroxine",
+      "dose": "50 mcg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hypothyroidism",
+      "start_date": "2022-08-02",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0067-ENC-004"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0067-OBS-001",
+      "date": "2026-02-08",
+      "name": "Systolic BP",
+      "value": 142.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-002",
+      "date": "2026-02-08",
+      "name": "Diastolic BP",
+      "value": 95.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-003",
+      "date": "2024-01-26",
+      "name": "Creatinine",
+      "value": 1.32,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-004",
+      "date": "2024-01-26",
+      "name": "eGFR",
+      "value": 89.5,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-005",
+      "date": "2024-10-21",
+      "name": "Systolic BP",
+      "value": 118.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-006",
+      "date": "2024-10-21",
+      "name": "Diastolic BP",
+      "value": 82.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-007",
+      "date": "2024-10-21",
+      "name": "HbA1c",
+      "value": 7.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-008",
+      "date": "2024-10-21",
+      "name": "Fasting Glucose",
+      "value": 165.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-009",
+      "date": "2024-06-17",
+      "name": "HbA1c",
+      "value": 9.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-010",
+      "date": "2024-06-17",
+      "name": "Fasting Glucose",
+      "value": 169.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-011",
+      "date": "2024-06-17",
+      "name": "Systolic BP",
+      "value": 144.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-012",
+      "date": "2024-06-17",
+      "name": "Diastolic BP",
+      "value": 93.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-013",
+      "date": "2024-04-25",
+      "name": "TSH",
+      "value": 3.7,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-014",
+      "date": "2024-04-25",
+      "name": "Free T4",
+      "value": 0.76,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-015",
+      "date": "2023-11-09",
+      "name": "Systolic BP",
+      "value": 129.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-016",
+      "date": "2023-11-09",
+      "name": "Diastolic BP",
+      "value": 98.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0067-OBS-017",
+      "date": "2024-08-31",
+      "name": "Systolic BP",
+      "value": 144.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-018",
+      "date": "2024-08-31",
+      "name": "Diastolic BP",
+      "value": 74.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-019",
+      "date": "2024-01-16",
+      "name": "TSH",
+      "value": 8.1,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-012",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-020",
+      "date": "2024-01-16",
+      "name": "Free T4",
+      "value": 0.89,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-012",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-021",
+      "date": "2024-01-16",
+      "name": "Creatinine",
+      "value": 1.24,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-012",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-022",
+      "date": "2024-01-16",
+      "name": "eGFR",
+      "value": 62.1,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-012",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0067-OBS-023",
+      "date": "2023-04-06",
+      "name": "HbA1c",
+      "value": 8.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-013",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0067-OBS-024",
+      "date": "2023-04-06",
+      "name": "Fasting Glucose",
+      "value": 181.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-013",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0067-OBS-025",
+      "date": "2023-04-06",
+      "name": "Creatinine",
+      "value": 1.42,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-013",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0067-OBS-026",
+      "date": "2023-04-06",
+      "name": "eGFR",
+      "value": 61.4,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0067-ENC-013",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0067-ENC-003",
+      "date": "2021-07-06",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 2",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "139/96",
+        "heart_rate": 91,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 95,
+        "weight_kg": 70.3
+      },
+      "notes": "Chronic Kidney Disease, Stage 2 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-002",
+      "date": "2022-03-16",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "132/84",
+        "heart_rate": 93,
+        "respiratory_rate": 20,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 61.3
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-004",
+      "date": "2022-07-14",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to hypothyroidism",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/78",
+        "heart_rate": 63,
+        "respiratory_rate": 18,
+        "temperature_c": 36.6,
+        "spo2": 99,
+        "weight_kg": 79.8
+      },
+      "notes": "Hypothyroidism documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-001",
+      "date": "2022-10-23",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/80",
+        "heart_rate": 82,
+        "respiratory_rate": 20,
+        "temperature_c": 36.7,
+        "spo2": 95,
+        "weight_kg": 81.6
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-013",
+      "date": "2023-04-06",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/87",
+        "heart_rate": 89,
+        "respiratory_rate": 14,
+        "temperature_c": 37.3,
+        "spo2": 99,
+        "weight_kg": 90.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-010",
+      "date": "2023-11-09",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "151/81",
+        "heart_rate": 61,
+        "respiratory_rate": 17,
+        "temperature_c": 37.4,
+        "spo2": 97,
+        "weight_kg": 70.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-012",
+      "date": "2024-01-16",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        },
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/92",
+        "heart_rate": 69,
+        "respiratory_rate": 19,
+        "temperature_c": 36.9,
+        "spo2": 96,
+        "weight_kg": 92.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-006",
+      "date": "2024-01-26",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/74",
+        "heart_rate": 61,
+        "respiratory_rate": 17,
+        "temperature_c": 37.0,
+        "spo2": 96,
+        "weight_kg": 65.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-009",
+      "date": "2024-04-25",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/75",
+        "heart_rate": 81,
+        "respiratory_rate": 15,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 76.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-008",
+      "date": "2024-06-17",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/88",
+        "heart_rate": 100,
+        "respiratory_rate": 21,
+        "temperature_c": 36.8,
+        "spo2": 93,
+        "weight_kg": 59.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-011",
+      "date": "2024-08-31",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/81",
+        "heart_rate": 84,
+        "respiratory_rate": 18,
+        "temperature_c": 37.1,
+        "spo2": 93,
+        "weight_kg": 91.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-007",
+      "date": "2024-10-21",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "164/74",
+        "heart_rate": 60,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 96,
+        "weight_kg": 92.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0067-ENC-005",
+      "date": "2026-02-08",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/74",
+        "heart_rate": 83,
+        "respiratory_rate": 14,
+        "temperature_c": 37.2,
+        "spo2": 99,
+        "weight_kg": 83.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0067-DOC-009",
+      "date": "2023-04-06",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2023-04-06.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0067-ENC-013"
+    },
+    {
+      "document_id": "CI-0067-DOC-006",
+      "date": "2023-11-09",
+      "type": "Lab Report",
+      "file_name": "Prescription_2023-11-09.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0067-ENC-010"
+    },
+    {
+      "document_id": "CI-0067-DOC-008",
+      "date": "2024-01-16",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2024-01-16.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0067-ENC-012"
+    },
+    {
+      "document_id": "CI-0067-DOC-002",
+      "date": "2024-01-26",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2024-01-26.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0067-ENC-006"
+    },
+    {
+      "document_id": "CI-0067-DOC-005",
+      "date": "2024-04-25",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2024-04-25.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0067-ENC-009"
+    },
+    {
+      "document_id": "CI-0067-DOC-004",
+      "date": "2024-06-17",
+      "type": "Lab Report",
+      "file_name": "Prescription_2024-06-17.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0067-ENC-008"
+    },
+    {
+      "document_id": "CI-0067-DOC-007",
+      "date": "2024-08-31",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2024-08-31.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0067-ENC-011"
+    },
+    {
+      "document_id": "CI-0067-DOC-003",
+      "date": "2024-10-21",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2024-10-21.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0067-ENC-007"
+    },
+    {
+      "document_id": "CI-0067-DOC-001",
+      "date": "2026-02-08",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2026-02-08.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0067-ENC-005"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-07-06",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 2 diagnosed",
+      "encounter_id": "CI-0067-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-03-16",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0067-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-03-28",
+      "type": "medication_started",
+      "title": "Amlodipine started",
+      "details": "5 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0067-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-07-14",
+      "type": "diagnosis",
+      "title": "Hypothyroidism diagnosed",
+      "encounter_id": "CI-0067-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-08-02",
+      "type": "medication_started",
+      "title": "Levothyroxine started",
+      "details": "50 mcg OD for Hypothyroidism",
+      "encounter_id": "CI-0067-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-10-23",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0067-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-11-08",
+      "type": "medication_started",
+      "title": "Glimepiride started",
+      "details": "1 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0067-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2023-04-06",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0067-ENC-013",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-11-09",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0067-ENC-010",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-01-16",
+      "type": "medication_changed",
+      "title": "Amlodipine dose changed",
+      "details": "80 mg → 10 mg",
+      "encounter_id": "CI-0067-ENC-012",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2024-01-26",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0067-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2024-04-25",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0067-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2024-06-17",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0067-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-08-31",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0067-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2024-10-21",
+      "type": "medication_changed",
+      "title": "Amlodipine dose changed",
+      "details": "5 mg → 80 mg",
+      "encounter_id": "CI-0067-ENC-007",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0067-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

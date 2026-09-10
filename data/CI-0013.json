@@ -1,0 +1,557 @@
+{
+  "patient_id": "CI-0013",
+  "synthetic": true,
+  "name": {
+    "first": "Diya",
+    "last": "Fasting Glucose",
+    "display": "Diya Fasting Glucose"
+  },
+  "date_of_birth": "1964-11-26",
+  "age": 62,
+  "gender": "Female",
+  "abha_id": "SYN-0013-4290",
+  "contact": {
+    "phone": "+91-9614332794",
+    "city": "Thane"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy",
+      "Cardiac History"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Coronary Artery Disease",
+        "code": "I25.10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Glimepiride",
+        "dose": "1 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "OD",
+        "indication": "Coronary Artery Disease"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2023-12-30",
+          "value": 138.1,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-10-22",
+          "value": 189.4,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2023-12-30",
+          "value": 7.0,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2024-10-22",
+          "value": 7.3,
+          "unit": "%"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0013-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-09-16",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0013-COND-002",
+      "name": "Coronary Artery Disease",
+      "code": "I25.10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-12-12",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0013-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-10-30",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0013-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-07-12",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0013-MED-001",
+      "name": "Glimepiride",
+      "dose": "1 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2019-10-27",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0013-ENC-001"
+    },
+    {
+      "medication_id": "CI-0013-MED-002",
+      "name": "Atorvastatin",
+      "dose": "20 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Coronary Artery Disease",
+      "start_date": "2021-05-11",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0013-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0013-OBS-001",
+      "date": "2024-10-22",
+      "name": "HbA1c",
+      "value": 7.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0013-OBS-002",
+      "date": "2024-10-22",
+      "name": "Fasting Glucose",
+      "value": 189.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0013-OBS-003",
+      "date": "2023-12-30",
+      "name": "HbA1c",
+      "value": 7.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0013-OBS-004",
+      "date": "2023-12-30",
+      "name": "Fasting Glucose",
+      "value": 138.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0013-OBS-005",
+      "date": "2022-07-07",
+      "name": "HbA1c",
+      "value": 6.8,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0013-OBS-006",
+      "date": "2022-07-07",
+      "name": "Fasting Glucose",
+      "value": 155.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0013-OBS-007",
+      "date": "2022-01-26",
+      "name": "HbA1c",
+      "value": 6.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0013-OBS-008",
+      "date": "2022-01-26",
+      "name": "Fasting Glucose",
+      "value": 141.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0013-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0013-ENC-001",
+      "date": "2019-10-22",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/78",
+        "heart_rate": 71,
+        "respiratory_rate": 20,
+        "temperature_c": 37.1,
+        "spo2": 98,
+        "weight_kg": 92.2
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0013-ENC-002",
+      "date": "2021-04-18",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to coronary artery disease",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/93",
+        "heart_rate": 96,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 96,
+        "weight_kg": 86.6
+      },
+      "notes": "Coronary Artery Disease documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0013-ENC-006",
+      "date": "2022-01-26",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/84",
+        "heart_rate": 70,
+        "respiratory_rate": 16,
+        "temperature_c": 36.6,
+        "spo2": 95,
+        "weight_kg": 76.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0013-ENC-005",
+      "date": "2022-07-07",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/85",
+        "heart_rate": 88,
+        "respiratory_rate": 20,
+        "temperature_c": 36.4,
+        "spo2": 93,
+        "weight_kg": 70.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0013-ENC-004",
+      "date": "2023-12-30",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/74",
+        "heart_rate": 65,
+        "respiratory_rate": 18,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 88.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0013-ENC-007",
+      "date": "2024-09-18",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "147/75",
+        "heart_rate": 68,
+        "respiratory_rate": 18,
+        "temperature_c": 36.3,
+        "spo2": 96,
+        "weight_kg": 69.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0013-ENC-003",
+      "date": "2024-10-22",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/96",
+        "heart_rate": 99,
+        "respiratory_rate": 20,
+        "temperature_c": 37.5,
+        "spo2": 95,
+        "weight_kg": 56.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0013-DOC-004",
+      "date": "2022-01-26",
+      "type": "Progress Note",
+      "file_name": "Prescription_2022-01-26.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0013-ENC-006"
+    },
+    {
+      "document_id": "CI-0013-DOC-003",
+      "date": "2022-07-07",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2022-07-07.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0013-ENC-005"
+    },
+    {
+      "document_id": "CI-0013-DOC-002",
+      "date": "2023-12-30",
+      "type": "Prescription",
+      "file_name": "Consultation_2023-12-30.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0013-ENC-004"
+    },
+    {
+      "document_id": "CI-0013-DOC-005",
+      "date": "2024-09-18",
+      "type": "Progress Note",
+      "file_name": "Prescription_2024-09-18.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0013-ENC-007"
+    },
+    {
+      "document_id": "CI-0013-DOC-001",
+      "date": "2024-10-22",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2024-10-22.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0013-ENC-003"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-10-22",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0013-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2019-10-27",
+      "type": "medication_started",
+      "title": "Glimepiride started",
+      "details": "1 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0013-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2021-04-18",
+      "type": "diagnosis",
+      "title": "Coronary Artery Disease diagnosed",
+      "encounter_id": "CI-0013-ENC-002",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2021-05-11",
+      "type": "medication_started",
+      "title": "Atorvastatin started",
+      "details": "20 mg OD for Coronary Artery Disease",
+      "encounter_id": "CI-0013-ENC-002",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-01-26",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0013-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2022-07-07",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0013-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-12-30",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0013-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-09-18",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0013-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-10-22",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0013-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

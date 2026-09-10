@@ -1,0 +1,539 @@
+{
+  "patient_id": "CI-0051",
+  "synthetic": true,
+  "name": {
+    "first": "Ananya",
+    "last": "SpO2",
+    "display": "Ananya SpO2"
+  },
+  "date_of_birth": "1970-06-24",
+  "age": 56,
+  "gender": "Male",
+  "abha_id": "SYN-0051-8109",
+  "contact": {
+    "phone": "+91-9495824195",
+    "city": "Pune"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy",
+      "Ibuprofen Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Asthma",
+        "code": "J45.909"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Budesonide",
+        "dose": "200 mcg",
+        "frequency": "BD",
+        "indication": "Asthma"
+      },
+      {
+        "name": "Diclofenac",
+        "dose": "50 mg",
+        "frequency": "BD",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "SpO2",
+        "previous": {
+          "date": "2024-06-12",
+          "value": 97.2,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2025-04-27",
+          "value": 93.2,
+          "unit": "%"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0051-ENC-007",
+      "date": "2025-06-06",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/80",
+        "heart_rate": 61,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 98,
+        "weight_kg": 71.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0051-COND-001",
+      "name": "Asthma",
+      "code": "J45.909",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-04-29",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0051-COND-002",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-01-02",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0051-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-08-21",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0051-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-01-06",
+      "source_hospital": "Apollo Heights Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0051-ALG-003",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-06-08",
+      "source_hospital": "Apollo Heights Hospital",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    },
+    {
+      "allergy_id": "CI-0051-ALG-004",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-09-30",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0051-MED-001",
+      "name": "Budesonide",
+      "dose": "200 mcg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Asthma",
+      "start_date": "2019-03-27",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Kavita Rao",
+      "source_encounter": "CI-0051-ENC-001"
+    },
+    {
+      "medication_id": "CI-0051-MED-002",
+      "name": "Diclofenac",
+      "dose": "50 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2019-05-08",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0051-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0051-OBS-001",
+      "date": "2024-06-12",
+      "name": "SpO2",
+      "value": 97.2,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0051-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0051-OBS-002",
+      "date": "2025-04-27",
+      "name": "SpO2",
+      "value": 93.2,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0051-ENC-005",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0051-OBS-003",
+      "date": "2022-09-30",
+      "name": "SpO2",
+      "value": 94.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0051-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0051-ENC-001",
+      "date": "2019-03-26",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to asthma",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "157/82",
+        "heart_rate": 81,
+        "respiratory_rate": 19,
+        "temperature_c": 36.8,
+        "spo2": 96,
+        "weight_kg": 76.3
+      },
+      "notes": "Asthma documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0051-ENC-002",
+      "date": "2019-04-24",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "153/94",
+        "heart_rate": 78,
+        "respiratory_rate": 20,
+        "temperature_c": 37.2,
+        "spo2": 99,
+        "weight_kg": 94.0
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0051-ENC-006",
+      "date": "2022-09-30",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "118/92",
+        "heart_rate": 82,
+        "respiratory_rate": 19,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 93.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0051-ENC-003",
+      "date": "2024-06-12",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "162/76",
+        "heart_rate": 78,
+        "respiratory_rate": 14,
+        "temperature_c": 37.4,
+        "spo2": 93,
+        "weight_kg": 89.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0051-ENC-005",
+      "date": "2025-04-27",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/94",
+        "heart_rate": 77,
+        "respiratory_rate": 15,
+        "temperature_c": 36.5,
+        "spo2": 93,
+        "weight_kg": 77.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0051-ENC-007",
+      "date": "2025-06-06",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/80",
+        "heart_rate": 61,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 98,
+        "weight_kg": 71.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0051-ENC-004",
+      "date": "2025-11-03",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "shortness of breath",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "153/96",
+        "heart_rate": 84,
+        "respiratory_rate": 20,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 62.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0051-DOC-005",
+      "date": "2022-09-30",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2022-09-30.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0051-ENC-006"
+    },
+    {
+      "document_id": "CI-0051-DOC-001",
+      "date": "2024-06-12",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-06-12.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0051-ENC-003"
+    },
+    {
+      "document_id": "CI-0051-DOC-004",
+      "date": "2025-04-27",
+      "type": "Lab Report",
+      "file_name": "Prescription_2025-04-27.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0051-ENC-005"
+    },
+    {
+      "document_id": "CI-0051-DOC-006",
+      "date": "2025-06-06",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2025-06-06.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0051-ENC-007"
+    },
+    {
+      "document_id": "CI-0051-DOC-007",
+      "date": "2025-06-06",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2025-06-06.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0051-ENC-007"
+    },
+    {
+      "document_id": "CI-0051-DOC-002",
+      "date": "2025-11-03",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2025-11-03.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0051-ENC-004"
+    },
+    {
+      "document_id": "CI-0051-DOC-003",
+      "date": "2025-11-03",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2025-11-03.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0051-ENC-004"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-03-26",
+      "type": "diagnosis",
+      "title": "Asthma diagnosed",
+      "encounter_id": "CI-0051-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-03-27",
+      "type": "medication_started",
+      "title": "Budesonide started",
+      "details": "200 mcg BD for Asthma",
+      "encounter_id": "CI-0051-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-04-24",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0051-ENC-002",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2019-05-08",
+      "type": "medication_started",
+      "title": "Diclofenac started",
+      "details": "50 mg BD for Osteoarthritis",
+      "encounter_id": "CI-0051-ENC-002",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-09-30",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0051-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2024-06-12",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0051-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2025-06-06",
+      "type": "hospitalization",
+      "title": "Hospitalization: Hyperglycemia",
+      "encounter_id": "CI-0051-ENC-007",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2025-11-03",
+      "type": "hospitalization",
+      "title": "Hospitalization: Shortness Of Breath",
+      "encounter_id": "CI-0051-ENC-004",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "patient_id": "CI-0052",
+  "synthetic": true,
+  "name": {
+    "first": "Aadhya",
+    "last": "Diastolic BP",
+    "display": "Aadhya Diastolic BP"
+  },
+  "date_of_birth": "1980-08-06",
+  "age": 46,
+  "gender": "Female",
+  "abha_id": "SYN-0052-3089",
+  "contact": {
+    "phone": "+91-9295283935",
+    "city": "Nashik"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Ibuprofen Allergy",
+      "Amoxicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Telmisartan",
+        "dose": "5 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2024-11-13",
+          "value": 90.6,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-10-23",
+          "value": 99.3,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2024-11-13",
+          "value": 149.2,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-10-23",
+          "value": 158.1,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Telmisartan dose",
+        "previous": null,
+        "current": {
+          "date": "2022-10-13",
+          "value": "5 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0052-COND-001",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-04-07",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0052-ALG-001",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2026-01-04",
+      "source_hospital": "Apollo Heights Hospital",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    },
+    {
+      "allergy_id": "CI-0052-ALG-002",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2026-05-14",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    },
+    {
+      "allergy_id": "CI-0052-ALG-003",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-10-17",
+      "source_hospital": "CityCare Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0052-ALG-004",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-02-15",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0052-ALG-005",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "inactive",
+      "verification_status": "conflicting",
+      "recorded_date": "2026-01-04",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Discharge_Summary_conflicting_allergy.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0052-MED-001",
+      "name": "Telmisartan",
+      "dose": "5 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2022-02-16",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0052-ENC-001",
+      "last_changed": "2022-10-13"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0052-OBS-001",
+      "date": "2022-08-14",
+      "name": "Systolic BP",
+      "value": 155.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0052-OBS-002",
+      "date": "2022-08-14",
+      "name": "Diastolic BP",
+      "value": 95.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0052-OBS-003",
+      "date": "2022-10-13",
+      "name": "Systolic BP",
+      "value": 156.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0052-OBS-004",
+      "date": "2022-10-13",
+      "name": "Diastolic BP",
+      "value": 73.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0052-OBS-005",
+      "date": "2024-11-13",
+      "name": "Systolic BP",
+      "value": 149.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0052-OBS-006",
+      "date": "2024-11-13",
+      "name": "Diastolic BP",
+      "value": 90.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0052-OBS-007",
+      "date": "2022-12-14",
+      "name": "Systolic BP",
+      "value": 145.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0052-OBS-008",
+      "date": "2022-12-14",
+      "name": "Diastolic BP",
+      "value": 75.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0052-OBS-009",
+      "date": "2025-10-23",
+      "name": "Systolic BP",
+      "value": 158.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0052-OBS-010",
+      "date": "2025-10-23",
+      "name": "Diastolic BP",
+      "value": 99.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0052-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0052-ENC-001",
+      "date": "2022-02-04",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "164/88",
+        "heart_rate": 70,
+        "respiratory_rate": 19,
+        "temperature_c": 37.1,
+        "spo2": 95,
+        "weight_kg": 79.1
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0052-ENC-002",
+      "date": "2022-08-14",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "158/91",
+        "heart_rate": 60,
+        "respiratory_rate": 14,
+        "temperature_c": 37.4,
+        "spo2": 93,
+        "weight_kg": 78.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0052-ENC-003",
+      "date": "2022-10-13",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "148/76",
+        "heart_rate": 75,
+        "respiratory_rate": 14,
+        "temperature_c": 37.0,
+        "spo2": 95,
+        "weight_kg": 82.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0052-ENC-005",
+      "date": "2022-12-14",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "157/82",
+        "heart_rate": 67,
+        "respiratory_rate": 19,
+        "temperature_c": 37.4,
+        "spo2": 93,
+        "weight_kg": 93.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0052-ENC-004",
+      "date": "2024-11-13",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "145/84",
+        "heart_rate": 69,
+        "respiratory_rate": 19,
+        "temperature_c": 37.1,
+        "spo2": 94,
+        "weight_kg": 94.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0052-ENC-006",
+      "date": "2025-10-23",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/80",
+        "heart_rate": 91,
+        "respiratory_rate": 19,
+        "temperature_c": 37.4,
+        "spo2": 99,
+        "weight_kg": 94.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0052-DOC-001",
+      "date": "2022-08-14",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2022-08-14.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0052-ENC-002"
+    },
+    {
+      "document_id": "CI-0052-DOC-002",
+      "date": "2022-10-13",
+      "type": "Prescription",
+      "file_name": "Consultation_2022-10-13.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0052-ENC-003"
+    },
+    {
+      "document_id": "CI-0052-DOC-004",
+      "date": "2022-12-14",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2022-12-14.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0052-ENC-005"
+    },
+    {
+      "document_id": "CI-0052-DOC-003",
+      "date": "2024-11-13",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2024-11-13.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0052-ENC-004"
+    },
+    {
+      "document_id": "CI-0052-DOC-005",
+      "date": "2025-10-23",
+      "type": "Lab Report",
+      "file_name": "Prescription_2025-10-23.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0052-ENC-006"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-02-04",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0052-ENC-001",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-02-16",
+      "type": "medication_started",
+      "title": "Telmisartan started",
+      "details": "40 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0052-ENC-001",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-08-14",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0052-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-10-13",
+      "type": "medication_changed",
+      "title": "Telmisartan dose changed",
+      "details": "40 mg → 5 mg",
+      "encounter_id": "CI-0052-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2022-12-14",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0052-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-11-13",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0052-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "patient_id": "CI-0036",
+  "synthetic": true,
+  "name": {
+    "first": "Kavya",
+    "last": "Diastolic BP",
+    "display": "Kavya Diastolic BP"
+  },
+  "date_of_birth": "1986-06-16",
+  "age": 40,
+  "gender": "Male",
+  "abha_id": "SYN-0036-7188",
+  "contact": {
+    "phone": "+91-9712412455",
+    "city": "Nashik"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Telmisartan",
+        "dose": "40 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2024-05-19",
+          "value": 77.5,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-10-03",
+          "value": 77.9,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2024-10-01",
+          "value": 152.3,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-10-03",
+          "value": 137.1,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2024-10-01",
+          "value": 6.6,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2024-10-03",
+          "value": 8.3,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2024-05-19",
+          "value": 120.4,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-10-03",
+          "value": 117.8,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0036-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-09-03",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0036-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-01-28",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0036-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-04-19",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0036-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-02-15",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0036-MED-001",
+      "name": "Sitagliptin",
+      "dose": "100 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2020-12-07",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0036-ENC-001"
+    },
+    {
+      "medication_id": "CI-0036-MED-002",
+      "name": "Telmisartan",
+      "dose": "40 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2022-10-27",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0036-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0036-OBS-001",
+      "date": "2024-05-19",
+      "name": "Systolic BP",
+      "value": 120.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-002",
+      "date": "2024-05-19",
+      "name": "Diastolic BP",
+      "value": 77.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-003",
+      "date": "2024-05-19",
+      "name": "HbA1c",
+      "value": 8.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-004",
+      "date": "2024-05-19",
+      "name": "Fasting Glucose",
+      "value": 158.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-005",
+      "date": "2022-07-23",
+      "name": "HbA1c",
+      "value": 8.5,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-006",
+      "date": "2022-07-23",
+      "name": "Fasting Glucose",
+      "value": 149.2,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-007",
+      "date": "2022-07-23",
+      "name": "Systolic BP",
+      "value": 139.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-008",
+      "date": "2022-07-23",
+      "name": "Diastolic BP",
+      "value": 84.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-009",
+      "date": "2024-10-01",
+      "name": "HbA1c",
+      "value": 6.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0036-OBS-010",
+      "date": "2024-10-01",
+      "name": "Fasting Glucose",
+      "value": 152.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0036-OBS-011",
+      "date": "2024-10-03",
+      "name": "Systolic BP",
+      "value": 117.8,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0036-OBS-012",
+      "date": "2024-10-03",
+      "name": "Diastolic BP",
+      "value": 77.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0036-OBS-013",
+      "date": "2024-10-03",
+      "name": "HbA1c",
+      "value": 8.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0036-OBS-014",
+      "date": "2024-10-03",
+      "name": "Fasting Glucose",
+      "value": 137.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0036-OBS-015",
+      "date": "2023-10-19",
+      "name": "Systolic BP",
+      "value": 132.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0036-OBS-016",
+      "date": "2023-10-19",
+      "name": "Diastolic BP",
+      "value": 80.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0036-OBS-017",
+      "date": "2023-04-26",
+      "name": "Systolic BP",
+      "value": 143.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0036-OBS-018",
+      "date": "2023-04-26",
+      "name": "Diastolic BP",
+      "value": 97.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0036-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0036-ENC-001",
+      "date": "2020-11-25",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/75",
+        "heart_rate": 87,
+        "respiratory_rate": 17,
+        "temperature_c": 36.9,
+        "spo2": 95,
+        "weight_kg": 59.8
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-004",
+      "date": "2022-07-23",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/93",
+        "heart_rate": 80,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 97,
+        "weight_kg": 59.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-002",
+      "date": "2022-10-24",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/77",
+        "heart_rate": 66,
+        "respiratory_rate": 16,
+        "temperature_c": 37.3,
+        "spo2": 97,
+        "weight_kg": 63.0
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-008",
+      "date": "2023-04-26",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "139/77",
+        "heart_rate": 61,
+        "respiratory_rate": 19,
+        "temperature_c": 36.3,
+        "spo2": 98,
+        "weight_kg": 92.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-007",
+      "date": "2023-10-19",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/90",
+        "heart_rate": 61,
+        "respiratory_rate": 19,
+        "temperature_c": 36.8,
+        "spo2": 96,
+        "weight_kg": 69.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-003",
+      "date": "2024-05-19",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "160/91",
+        "heart_rate": 85,
+        "respiratory_rate": 21,
+        "temperature_c": 36.9,
+        "spo2": 94,
+        "weight_kg": 88.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-005",
+      "date": "2024-10-01",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "125/84",
+        "heart_rate": 88,
+        "respiratory_rate": 19,
+        "temperature_c": 37.3,
+        "spo2": 96,
+        "weight_kg": 74.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0036-ENC-006",
+      "date": "2024-10-03",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "160/89",
+        "heart_rate": 94,
+        "respiratory_rate": 21,
+        "temperature_c": 36.9,
+        "spo2": 99,
+        "weight_kg": 61.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0036-DOC-002",
+      "date": "2022-07-23",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2022-07-23.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0036-ENC-004"
+    },
+    {
+      "document_id": "CI-0036-DOC-006",
+      "date": "2023-04-26",
+      "type": "Prescription",
+      "file_name": "Consultation_2023-04-26.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0036-ENC-008"
+    },
+    {
+      "document_id": "CI-0036-DOC-005",
+      "date": "2023-10-19",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2023-10-19.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0036-ENC-007"
+    },
+    {
+      "document_id": "CI-0036-DOC-001",
+      "date": "2024-05-19",
+      "type": "Lab Report",
+      "file_name": "Consultation_2024-05-19.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0036-ENC-003"
+    },
+    {
+      "document_id": "CI-0036-DOC-003",
+      "date": "2024-10-01",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2024-10-01.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0036-ENC-005"
+    },
+    {
+      "document_id": "CI-0036-DOC-004",
+      "date": "2024-10-03",
+      "type": "Prescription",
+      "file_name": "Prescription_2024-10-03.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0036-ENC-006"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2020-11-25",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0036-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2020-12-07",
+      "type": "medication_started",
+      "title": "Sitagliptin started",
+      "details": "100 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0036-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-10-24",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0036-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-10-27",
+      "type": "medication_started",
+      "title": "Telmisartan started",
+      "details": "40 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0036-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-04-26",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0036-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-10-19",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0036-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-05-19",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0036-ENC-003",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2024-10-01",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0036-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-10-03",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0036-ENC-006",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

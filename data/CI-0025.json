@@ -1,0 +1,806 @@
+{
+  "patient_id": "CI-0025",
+  "synthetic": true,
+  "name": {
+    "first": "Kabir",
+    "last": "Diastolic BP",
+    "display": "Kabir Diastolic BP"
+  },
+  "date_of_birth": "1985-12-09",
+  "age": 41,
+  "gender": "Male",
+  "abha_id": "SYN-0025-2121",
+  "contact": {
+    "phone": "+91-9295858216",
+    "city": "Pune"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Asthma",
+        "code": "J45.909"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Montelukast",
+        "dose": "10 mg",
+        "frequency": "OD",
+        "indication": "Asthma"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2026-03-12",
+          "value": 96.4,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2026-06-20",
+          "value": 97.3,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "SpO2",
+        "previous": {
+          "date": "2026-03-12",
+          "value": 96.3,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-06-20",
+          "value": 94.4,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2026-03-12",
+          "value": 118.2,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2026-06-20",
+          "value": 153.2,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0025-ENC-007",
+      "date": "2024-09-02",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "shortness of breath",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "158/95",
+        "heart_rate": 100,
+        "respiratory_rate": 20,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 78.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0025-COND-001",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-08-16",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0025-COND-002",
+      "name": "Asthma",
+      "code": "J45.909",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-08-12",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0025-ALG-001",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-01-07",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Dust.pdf"
+    },
+    {
+      "allergy_id": "CI-0025-ALG-002",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-08-19",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Dust.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0025-MED-001",
+      "name": "Losartan",
+      "dose": "50 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2020-12-22",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0025-ENC-001"
+    },
+    {
+      "medication_id": "CI-0025-MED-002",
+      "name": "Montelukast",
+      "dose": "10 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Asthma",
+      "start_date": "2020-08-23",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0025-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0025-OBS-001",
+      "date": "2025-10-23",
+      "name": "SpO2",
+      "value": 95.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0025-OBS-002",
+      "date": "2025-07-17",
+      "name": "SpO2",
+      "value": 94.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-003",
+      "date": "2025-07-17",
+      "name": "Systolic BP",
+      "value": 147.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-004",
+      "date": "2025-07-17",
+      "name": "Diastolic BP",
+      "value": 78.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-005",
+      "date": "2026-03-12",
+      "name": "Systolic BP",
+      "value": 118.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0025-OBS-006",
+      "date": "2026-03-12",
+      "name": "Diastolic BP",
+      "value": 96.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0025-OBS-007",
+      "date": "2026-03-12",
+      "name": "SpO2",
+      "value": 96.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0025-OBS-008",
+      "date": "2024-12-09",
+      "name": "Systolic BP",
+      "value": 156.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-006",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-009",
+      "date": "2024-12-09",
+      "name": "Diastolic BP",
+      "value": 70.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-006",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-010",
+      "date": "2024-09-02",
+      "name": "Systolic BP",
+      "value": 160.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0025-OBS-011",
+      "date": "2024-09-02",
+      "name": "Diastolic BP",
+      "value": 84.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0025-OBS-012",
+      "date": "2024-09-02",
+      "name": "SpO2",
+      "value": 94.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0025-OBS-013",
+      "date": "2023-09-23",
+      "name": "Systolic BP",
+      "value": 138.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-014",
+      "date": "2023-09-23",
+      "name": "Diastolic BP",
+      "value": 70.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-015",
+      "date": "2023-09-23",
+      "name": "SpO2",
+      "value": 95.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-016",
+      "date": "2026-06-20",
+      "name": "SpO2",
+      "value": 94.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-017",
+      "date": "2026-06-20",
+      "name": "Systolic BP",
+      "value": 153.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0025-OBS-018",
+      "date": "2026-06-20",
+      "name": "Diastolic BP",
+      "value": 97.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0025-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0025-ENC-002",
+      "date": "2020-08-20",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to asthma",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "134/83",
+        "heart_rate": 85,
+        "respiratory_rate": 18,
+        "temperature_c": 36.9,
+        "spo2": 97,
+        "weight_kg": 68.8
+      },
+      "notes": "Asthma documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-001",
+      "date": "2020-12-19",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/94",
+        "heart_rate": 72,
+        "respiratory_rate": 14,
+        "temperature_c": 36.6,
+        "spo2": 97,
+        "weight_kg": 74.1
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-008",
+      "date": "2023-09-23",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/81",
+        "heart_rate": 90,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 96,
+        "weight_kg": 95.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-007",
+      "date": "2024-09-02",
+      "type": "Inpatient",
+      "department": "Emergency Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "shortness of breath",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "158/95",
+        "heart_rate": 100,
+        "respiratory_rate": 20,
+        "temperature_c": 36.9,
+        "spo2": 98,
+        "weight_kg": 78.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-006",
+      "date": "2024-12-09",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "137/79",
+        "heart_rate": 75,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 94,
+        "weight_kg": 60.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-004",
+      "date": "2025-07-17",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "123/77",
+        "heart_rate": 81,
+        "respiratory_rate": 17,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 67.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-003",
+      "date": "2025-10-23",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "138/93",
+        "heart_rate": 92,
+        "respiratory_rate": 21,
+        "temperature_c": 37.2,
+        "spo2": 96,
+        "weight_kg": 93.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-005",
+      "date": "2026-03-12",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "uncontrolled blood pressure",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "164/79",
+        "heart_rate": 76,
+        "respiratory_rate": 15,
+        "temperature_c": 36.6,
+        "spo2": 96,
+        "weight_kg": 59.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0025-ENC-009",
+      "date": "2026-06-20",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "128/94",
+        "heart_rate": 84,
+        "respiratory_rate": 20,
+        "temperature_c": 36.6,
+        "spo2": 93,
+        "weight_kg": 73.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0025-DOC-008",
+      "date": "2023-09-23",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2023-09-23.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0025-ENC-008"
+    },
+    {
+      "document_id": "CI-0025-DOC-006",
+      "date": "2024-09-02",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2024-09-02.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0025-ENC-007"
+    },
+    {
+      "document_id": "CI-0025-DOC-007",
+      "date": "2024-09-02",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2024-09-02.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0025-ENC-007"
+    },
+    {
+      "document_id": "CI-0025-DOC-005",
+      "date": "2024-12-09",
+      "type": "Prescription",
+      "file_name": "Prescription_2024-12-09.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0025-ENC-006"
+    },
+    {
+      "document_id": "CI-0025-DOC-002",
+      "date": "2025-07-17",
+      "type": "Progress Note",
+      "file_name": "Prescription_2025-07-17.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0025-ENC-004"
+    },
+    {
+      "document_id": "CI-0025-DOC-001",
+      "date": "2025-10-23",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2025-10-23.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0025-ENC-003"
+    },
+    {
+      "document_id": "CI-0025-DOC-003",
+      "date": "2026-03-12",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2026-03-12.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0025-ENC-005"
+    },
+    {
+      "document_id": "CI-0025-DOC-004",
+      "date": "2026-03-12",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2026-03-12.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0025-ENC-005"
+    },
+    {
+      "document_id": "CI-0025-DOC-009",
+      "date": "2026-06-20",
+      "type": "Prescription",
+      "file_name": "Prescription_2026-06-20.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0025-ENC-009"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2020-08-20",
+      "type": "diagnosis",
+      "title": "Asthma diagnosed",
+      "encounter_id": "CI-0025-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2020-08-23",
+      "type": "medication_started",
+      "title": "Montelukast started",
+      "details": "10 mg OD for Asthma",
+      "encounter_id": "CI-0025-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2020-12-19",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0025-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2020-12-22",
+      "type": "medication_started",
+      "title": "Losartan started",
+      "details": "50 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0025-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-09-23",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0025-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2024-09-02",
+      "type": "hospitalization",
+      "title": "Hospitalization: Shortness Of Breath",
+      "encounter_id": "CI-0025-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-12-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0025-ENC-006",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2025-07-17",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0025-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2025-10-23",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0025-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "hospitalization",
+      "title": "Hospitalization: Uncontrolled Blood Pressure",
+      "encounter_id": "CI-0025-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0025-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

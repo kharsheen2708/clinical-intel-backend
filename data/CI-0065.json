@@ -1,0 +1,752 @@
+{
+  "patient_id": "CI-0065",
+  "synthetic": true,
+  "name": {
+    "first": "Kabir",
+    "last": "Fasting Glucose",
+    "display": "Kabir Fasting Glucose"
+  },
+  "date_of_birth": "1959-07-06",
+  "age": 67,
+  "gender": "Male",
+  "abha_id": "SYN-0065-1440",
+  "contact": {
+    "phone": "+91-9338042160",
+    "city": "Nagpur"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy",
+      "Cardiac History",
+      "Blood thinner"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Coronary Artery Disease",
+        "code": "I25.10"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "1500 mg",
+        "frequency": "BD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Aspirin",
+        "dose": "75 mg",
+        "frequency": "OD",
+        "indication": "Coronary Artery Disease"
+      },
+      {
+        "name": "Diclofenac",
+        "dose": "50 mg",
+        "frequency": "BD",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2025-03-09",
+          "value": 180.1,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2025-12-03",
+          "value": 154.9,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2025-03-09",
+          "value": 6.9,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2025-12-03",
+          "value": 6.9,
+          "unit": "%"
+        },
+        "status": "no_change"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2025-12-03",
+          "value": "1500 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0065-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-12-01",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0065-COND-002",
+      "name": "Coronary Artery Disease",
+      "code": "I25.10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-07-23",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0065-COND-003",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-01-22",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0065-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-12-12",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0065-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2023-09-28",
+      "source_hospital": "CityCare Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0065-MED-001",
+      "name": "Metformin",
+      "dose": "1500 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2019-11-02",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0065-ENC-001",
+      "last_changed": "2025-12-03"
+    },
+    {
+      "medication_id": "CI-0065-MED-002",
+      "name": "Aspirin",
+      "dose": "75 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Coronary Artery Disease",
+      "start_date": "2021-04-26",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0065-ENC-002"
+    },
+    {
+      "medication_id": "CI-0065-MED-003",
+      "name": "Diclofenac",
+      "dose": "50 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2019-10-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0065-ENC-003"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0065-OBS-001",
+      "date": "2023-12-29",
+      "name": "HbA1c",
+      "value": 8.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0065-OBS-002",
+      "date": "2023-12-29",
+      "name": "Fasting Glucose",
+      "value": 172.7,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0065-OBS-003",
+      "date": "2025-12-03",
+      "name": "HbA1c",
+      "value": 6.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0065-OBS-004",
+      "date": "2025-12-03",
+      "name": "Fasting Glucose",
+      "value": 154.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-005",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0065-OBS-005",
+      "date": "2025-03-09",
+      "name": "HbA1c",
+      "value": 6.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-009",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0065-OBS-006",
+      "date": "2025-03-09",
+      "name": "Fasting Glucose",
+      "value": 180.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-009",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0065-OBS-007",
+      "date": "2022-06-14",
+      "name": "HbA1c",
+      "value": 8.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-010",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0065-OBS-008",
+      "date": "2022-06-14",
+      "name": "Fasting Glucose",
+      "value": 164.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0065-ENC-010",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0065-ENC-003",
+      "date": "2019-10-22",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "130/80",
+        "heart_rate": 74,
+        "respiratory_rate": 15,
+        "temperature_c": 37.3,
+        "spo2": 97,
+        "weight_kg": 82.9
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-001",
+      "date": "2019-10-24",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "128/97",
+        "heart_rate": 62,
+        "respiratory_rate": 15,
+        "temperature_c": 37.0,
+        "spo2": 98,
+        "weight_kg": 58.3
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-002",
+      "date": "2021-04-08",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to coronary artery disease",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/96",
+        "heart_rate": 70,
+        "respiratory_rate": 16,
+        "temperature_c": 36.4,
+        "spo2": 97,
+        "weight_kg": 62.1
+      },
+      "notes": "Coronary Artery Disease documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-010",
+      "date": "2022-06-14",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/89",
+        "heart_rate": 83,
+        "respiratory_rate": 14,
+        "temperature_c": 36.9,
+        "spo2": 95,
+        "weight_kg": 59.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-007",
+      "date": "2023-09-20",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "155/90",
+        "heart_rate": 87,
+        "respiratory_rate": 20,
+        "temperature_c": 36.9,
+        "spo2": 94,
+        "weight_kg": 65.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-004",
+      "date": "2023-12-29",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "155/84",
+        "heart_rate": 69,
+        "respiratory_rate": 17,
+        "temperature_c": 37.5,
+        "spo2": 96,
+        "weight_kg": 69.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-011",
+      "date": "2024-08-07",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "138/96",
+        "heart_rate": 68,
+        "respiratory_rate": 20,
+        "temperature_c": 37.2,
+        "spo2": 95,
+        "weight_kg": 90.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-008",
+      "date": "2024-09-15",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/85",
+        "heart_rate": 77,
+        "respiratory_rate": 20,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 77.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-009",
+      "date": "2025-03-09",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "127/97",
+        "heart_rate": 82,
+        "respiratory_rate": 21,
+        "temperature_c": 36.8,
+        "spo2": 96,
+        "weight_kg": 55.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-006",
+      "date": "2025-09-10",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "118/77",
+        "heart_rate": 86,
+        "respiratory_rate": 21,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 93.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0065-ENC-005",
+      "date": "2025-12-03",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "131/86",
+        "heart_rate": 76,
+        "respiratory_rate": 14,
+        "temperature_c": 37.4,
+        "spo2": 97,
+        "weight_kg": 83.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0065-DOC-007",
+      "date": "2022-06-14",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2022-06-14.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0065-ENC-010"
+    },
+    {
+      "document_id": "CI-0065-DOC-004",
+      "date": "2023-09-20",
+      "type": "Prescription",
+      "file_name": "Prescription_2023-09-20.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0065-ENC-007"
+    },
+    {
+      "document_id": "CI-0065-DOC-001",
+      "date": "2023-12-29",
+      "type": "Lab Report",
+      "file_name": "Prescription_2023-12-29.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0065-ENC-004"
+    },
+    {
+      "document_id": "CI-0065-DOC-008",
+      "date": "2024-08-07",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-08-07.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0065-ENC-011"
+    },
+    {
+      "document_id": "CI-0065-DOC-005",
+      "date": "2024-09-15",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2024-09-15.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0065-ENC-008"
+    },
+    {
+      "document_id": "CI-0065-DOC-006",
+      "date": "2025-03-09",
+      "type": "Prescription",
+      "file_name": "Prescription_2025-03-09.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0065-ENC-009"
+    },
+    {
+      "document_id": "CI-0065-DOC-003",
+      "date": "2025-09-10",
+      "type": "Lab Report",
+      "file_name": "Prescription_2025-09-10.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0065-ENC-006"
+    },
+    {
+      "document_id": "CI-0065-DOC-002",
+      "date": "2025-12-03",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2025-12-03.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0065-ENC-005"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-10-22",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0065-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2019-10-24",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0065-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2019-10-24",
+      "type": "medication_started",
+      "title": "Diclofenac started",
+      "details": "50 mg BD for Osteoarthritis",
+      "encounter_id": "CI-0065-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2019-11-02",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "1000 mg BD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0065-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-04-08",
+      "type": "diagnosis",
+      "title": "Coronary Artery Disease diagnosed",
+      "encounter_id": "CI-0065-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2021-04-26",
+      "type": "medication_started",
+      "title": "Aspirin started",
+      "details": "75 mg OD for Coronary Artery Disease",
+      "encounter_id": "CI-0065-ENC-002",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-09-20",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0065-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2023-12-29",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0065-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-09-15",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0065-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2025-03-09",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0065-ENC-009",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2025-09-10",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0065-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-12-03",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "1000 mg → 1500 mg",
+      "encounter_id": "CI-0065-ENC-005",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

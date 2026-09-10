@@ -1,0 +1,833 @@
+{
+  "patient_id": "CI-0073",
+  "synthetic": true,
+  "name": {
+    "first": "Diya",
+    "last": "Diastolic BP",
+    "display": "Diya Diastolic BP"
+  },
+  "date_of_birth": "1990-08-04",
+  "age": 36,
+  "gender": "Female",
+  "abha_id": "SYN-0073-7716",
+  "contact": {
+    "phone": "+91-9656249065",
+    "city": "Nagpur"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Amoxicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "code": "E78.5"
+      },
+      {
+        "name": "Asthma",
+        "code": "J45.909"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Glimepiride",
+        "dose": "1 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "OD",
+        "indication": "Hyperlipidemia"
+      },
+      {
+        "name": "Montelukast",
+        "dose": "10 mg",
+        "frequency": "OD",
+        "indication": "Asthma"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2024-02-18",
+          "value": 78.6,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-06-24",
+          "value": 76.0,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "LDL",
+        "previous": {
+          "date": "2024-02-01",
+          "value": 97.3,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-02-12",
+          "value": 133.8,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "SpO2",
+        "previous": {
+          "date": "2023-01-11",
+          "value": 98.3,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2024-02-12",
+          "value": 98.4,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2024-02-18",
+          "value": 145.1,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-06-24",
+          "value": 132.5,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Total Cholesterol",
+        "previous": {
+          "date": "2024-02-01",
+          "value": 219.0,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-02-12",
+          "value": 161.5,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0073-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-01-23",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0073-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-12-01",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0073-COND-003",
+      "name": "Hyperlipidemia",
+      "code": "E78.5",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-10-08",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0073-COND-004",
+      "name": "Asthma",
+      "code": "J45.909",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-01-16",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0073-ALG-001",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-08-21",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0073-ALG-002",
+      "substance": "Amoxicillin",
+      "reaction": "urticaria",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-04-02",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Amoxicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0073-MED-001",
+      "name": "Glimepiride",
+      "dose": "1 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2022-07-14",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0073-ENC-001"
+    },
+    {
+      "medication_id": "CI-0073-MED-002",
+      "name": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2023-07-21",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0073-ENC-002"
+    },
+    {
+      "medication_id": "CI-0073-MED-003",
+      "name": "Atorvastatin",
+      "dose": "20 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hyperlipidemia",
+      "start_date": "2022-07-27",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0073-ENC-003"
+    },
+    {
+      "medication_id": "CI-0073-MED-004",
+      "name": "Montelukast",
+      "dose": "10 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Asthma",
+      "start_date": "2023-02-08",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0073-ENC-004"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0073-OBS-001",
+      "date": "2024-02-01",
+      "name": "LDL",
+      "value": 97.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0073-OBS-002",
+      "date": "2024-02-01",
+      "name": "Total Cholesterol",
+      "value": 219.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0073-OBS-003",
+      "date": "2024-02-12",
+      "name": "LDL",
+      "value": 133.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0073-OBS-004",
+      "date": "2024-02-12",
+      "name": "Total Cholesterol",
+      "value": 161.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0073-OBS-005",
+      "date": "2024-02-12",
+      "name": "SpO2",
+      "value": 98.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0073-OBS-006",
+      "date": "2023-01-11",
+      "name": "SpO2",
+      "value": 98.3,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-007",
+      "date": "2023-01-11",
+      "name": "Systolic BP",
+      "value": 162.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-008",
+      "date": "2023-01-11",
+      "name": "Diastolic BP",
+      "value": 86.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-009",
+      "date": "2022-09-18",
+      "name": "HbA1c",
+      "value": 7.2,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-010",
+      "date": "2022-09-18",
+      "name": "Fasting Glucose",
+      "value": 157.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-011",
+      "date": "2024-06-24",
+      "name": "Systolic BP",
+      "value": 132.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-012",
+      "date": "2024-06-24",
+      "name": "Diastolic BP",
+      "value": 76.0,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-009",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0073-OBS-013",
+      "date": "2024-02-18",
+      "name": "Systolic BP",
+      "value": 145.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-010",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0073-OBS-014",
+      "date": "2024-02-18",
+      "name": "Diastolic BP",
+      "value": 78.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0073-ENC-010",
+      "source_hospital": "Apollo Heights Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0073-ENC-001",
+      "date": "2022-06-14",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/73",
+        "heart_rate": 96,
+        "respiratory_rate": 14,
+        "temperature_c": 36.4,
+        "spo2": 97,
+        "weight_kg": 70.4
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-003",
+      "date": "2022-07-26",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to hyperlipidemia",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/79",
+        "heart_rate": 82,
+        "respiratory_rate": 14,
+        "temperature_c": 37.0,
+        "spo2": 98,
+        "weight_kg": 63.3
+      },
+      "notes": "Hyperlipidemia documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-008",
+      "date": "2022-09-18",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/98",
+        "heart_rate": 84,
+        "respiratory_rate": 16,
+        "temperature_c": 36.4,
+        "spo2": 98,
+        "weight_kg": 89.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-007",
+      "date": "2023-01-11",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/90",
+        "heart_rate": 76,
+        "respiratory_rate": 15,
+        "temperature_c": 37.2,
+        "spo2": 96,
+        "weight_kg": 90.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-004",
+      "date": "2023-01-13",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to asthma",
+      "diagnoses": [
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "136/72",
+        "heart_rate": 77,
+        "respiratory_rate": 19,
+        "temperature_c": 37.1,
+        "spo2": 97,
+        "weight_kg": 94.4
+      },
+      "notes": "Asthma documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-002",
+      "date": "2023-06-22",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "165/88",
+        "heart_rate": 95,
+        "respiratory_rate": 20,
+        "temperature_c": 36.6,
+        "spo2": 97,
+        "weight_kg": 82.2
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-005",
+      "date": "2024-02-01",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/90",
+        "heart_rate": 100,
+        "respiratory_rate": 18,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 86.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-006",
+      "date": "2024-02-12",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        },
+        {
+          "name": "Asthma",
+          "code": "J45.909",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "158/94",
+        "heart_rate": 85,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 96,
+        "weight_kg": 60.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-010",
+      "date": "2024-02-18",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "139/93",
+        "heart_rate": 88,
+        "respiratory_rate": 14,
+        "temperature_c": 37.3,
+        "spo2": 93,
+        "weight_kg": 91.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0073-ENC-009",
+      "date": "2024-06-24",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "120/90",
+        "heart_rate": 60,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 95,
+        "weight_kg": 94.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0073-DOC-004",
+      "date": "2022-09-18",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2022-09-18.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0073-ENC-008"
+    },
+    {
+      "document_id": "CI-0073-DOC-003",
+      "date": "2023-01-11",
+      "type": "Progress Note",
+      "file_name": "Lab_Report_2023-01-11.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0073-ENC-007"
+    },
+    {
+      "document_id": "CI-0073-DOC-001",
+      "date": "2024-02-01",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-02-01.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0073-ENC-005"
+    },
+    {
+      "document_id": "CI-0073-DOC-002",
+      "date": "2024-02-12",
+      "type": "Progress Note",
+      "file_name": "Consultation_2024-02-12.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0073-ENC-006"
+    },
+    {
+      "document_id": "CI-0073-DOC-006",
+      "date": "2024-02-18",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2024-02-18.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0073-ENC-010"
+    },
+    {
+      "document_id": "CI-0073-DOC-005",
+      "date": "2024-06-24",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2024-06-24.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0073-ENC-009"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-06-14",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0073-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-07-14",
+      "type": "medication_started",
+      "title": "Glimepiride started",
+      "details": "1 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0073-ENC-001",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2022-07-26",
+      "type": "diagnosis",
+      "title": "Hyperlipidemia diagnosed",
+      "encounter_id": "CI-0073-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-07-27",
+      "type": "medication_started",
+      "title": "Atorvastatin started",
+      "details": "20 mg OD for Hyperlipidemia",
+      "encounter_id": "CI-0073-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-09-18",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0073-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-01-11",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0073-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2023-01-13",
+      "type": "diagnosis",
+      "title": "Asthma diagnosed",
+      "encounter_id": "CI-0073-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2023-02-08",
+      "type": "medication_started",
+      "title": "Montelukast started",
+      "details": "10 mg OD for Asthma",
+      "encounter_id": "CI-0073-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2023-06-22",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0073-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-07-21",
+      "type": "medication_started",
+      "title": "Amlodipine started",
+      "details": "5 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0073-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-02-01",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0073-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-02-18",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0073-ENC-010",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2024-06-24",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0073-ENC-009",
+      "source_hospital": "Fortis Central"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

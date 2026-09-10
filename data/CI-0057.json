@@ -1,0 +1,643 @@
+{
+  "patient_id": "CI-0057",
+  "synthetic": true,
+  "name": {
+    "first": "Riya",
+    "last": "Fasting Glucose",
+    "display": "Riya Fasting Glucose"
+  },
+  "date_of_birth": "1956-04-22",
+  "age": 70,
+  "gender": "Female",
+  "abha_id": "SYN-0057-6747",
+  "contact": {
+    "phone": "+91-9685957100",
+    "city": "Thane"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Cardiac History",
+      "Blood thinner"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 2",
+        "code": "N18.2"
+      },
+      {
+        "name": "Coronary Artery Disease",
+        "code": "I25.10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Aspirin",
+        "dose": "75 mg",
+        "frequency": "OD",
+        "indication": "Coronary Artery Disease"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2026-02-08",
+          "value": 108.0,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-02-22",
+          "value": 127.4,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2026-02-08",
+          "value": 6.7,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-02-22",
+          "value": 7.0,
+          "unit": "%"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0057-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-06-09",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0057-COND-002",
+      "name": "Chronic Kidney Disease, Stage 2",
+      "code": "N18.2",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-02-18",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0057-COND-003",
+      "name": "Coronary Artery Disease",
+      "code": "I25.10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-10-03",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0057-ALG-001",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-06-01",
+      "source_hospital": "CityCare Hospital",
+      "source_document": "Allergy_Record_Dust.pdf"
+    },
+    {
+      "allergy_id": "CI-0057-ALG-002",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-10-06",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Dust.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0057-MED-001",
+      "name": "Sitagliptin",
+      "dose": "100 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2022-08-17",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0057-ENC-001"
+    },
+    {
+      "medication_id": "CI-0057-MED-002",
+      "name": "Aspirin",
+      "dose": "75 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Coronary Artery Disease",
+      "start_date": "2022-08-05",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0057-ENC-003"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0057-OBS-001",
+      "date": "2024-09-02",
+      "name": "HbA1c",
+      "value": 7.8,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0057-OBS-002",
+      "date": "2024-09-02",
+      "name": "Fasting Glucose",
+      "value": 136.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0057-OBS-003",
+      "date": "2026-02-08",
+      "name": "HbA1c",
+      "value": 6.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0057-OBS-004",
+      "date": "2026-02-08",
+      "name": "Fasting Glucose",
+      "value": 108.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0057-OBS-005",
+      "date": "2026-02-08",
+      "name": "Creatinine",
+      "value": 1.09,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0057-OBS-006",
+      "date": "2026-02-08",
+      "name": "eGFR",
+      "value": 48.0,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0057-OBS-007",
+      "date": "2023-04-09",
+      "name": "HbA1c",
+      "value": 7.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0057-OBS-008",
+      "date": "2023-04-09",
+      "name": "Fasting Glucose",
+      "value": 105.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0057-OBS-009",
+      "date": "2026-02-22",
+      "name": "HbA1c",
+      "value": 7.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-007",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0057-OBS-010",
+      "date": "2026-02-22",
+      "name": "Fasting Glucose",
+      "value": 127.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-007",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0057-OBS-011",
+      "date": "2025-10-23",
+      "name": "HbA1c",
+      "value": 7.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0057-OBS-012",
+      "date": "2025-10-23",
+      "name": "Fasting Glucose",
+      "value": 124.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0057-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0057-ENC-003",
+      "date": "2022-07-28",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to coronary artery disease",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "127/86",
+        "heart_rate": 68,
+        "respiratory_rate": 19,
+        "temperature_c": 36.5,
+        "spo2": 95,
+        "weight_kg": 90.8
+      },
+      "notes": "Coronary Artery Disease documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-001",
+      "date": "2022-08-03",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "159/76",
+        "heart_rate": 94,
+        "respiratory_rate": 14,
+        "temperature_c": 37.2,
+        "spo2": 96,
+        "weight_kg": 91.7
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-006",
+      "date": "2023-04-09",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "149/78",
+        "heart_rate": 70,
+        "respiratory_rate": 17,
+        "temperature_c": 36.7,
+        "spo2": 95,
+        "weight_kg": 85.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-002",
+      "date": "2024-02-22",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 2",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "130/96",
+        "heart_rate": 87,
+        "respiratory_rate": 15,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 61.6
+      },
+      "notes": "Chronic Kidney Disease, Stage 2 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-004",
+      "date": "2024-09-02",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "145/78",
+        "heart_rate": 69,
+        "respiratory_rate": 20,
+        "temperature_c": 36.9,
+        "spo2": 97,
+        "weight_kg": 69.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-008",
+      "date": "2025-10-23",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Coronary Artery Disease",
+          "code": "I25.10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "133/87",
+        "heart_rate": 67,
+        "respiratory_rate": 14,
+        "temperature_c": 37.3,
+        "spo2": 97,
+        "weight_kg": 84.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-005",
+      "date": "2026-02-08",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "151/85",
+        "heart_rate": 66,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 93,
+        "weight_kg": 64.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0057-ENC-007",
+      "date": "2026-02-22",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "139/86",
+        "heart_rate": 69,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 96,
+        "weight_kg": 69.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0057-DOC-003",
+      "date": "2023-04-09",
+      "type": "Lab Report",
+      "file_name": "Progress_Note_2023-04-09.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0057-ENC-006"
+    },
+    {
+      "document_id": "CI-0057-DOC-001",
+      "date": "2024-09-02",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2024-09-02.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0057-ENC-004"
+    },
+    {
+      "document_id": "CI-0057-DOC-005",
+      "date": "2025-10-23",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2025-10-23.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0057-ENC-008"
+    },
+    {
+      "document_id": "CI-0057-DOC-002",
+      "date": "2026-02-08",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2026-02-08.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0057-ENC-005"
+    },
+    {
+      "document_id": "CI-0057-DOC-004",
+      "date": "2026-02-22",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2026-02-22.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0057-ENC-007"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-07-28",
+      "type": "diagnosis",
+      "title": "Coronary Artery Disease diagnosed",
+      "encounter_id": "CI-0057-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-08-03",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0057-ENC-001",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2022-08-05",
+      "type": "medication_started",
+      "title": "Aspirin started",
+      "details": "75 mg OD for Coronary Artery Disease",
+      "encounter_id": "CI-0057-ENC-003",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-08-17",
+      "type": "medication_started",
+      "title": "Sitagliptin started",
+      "details": "100 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0057-ENC-001",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2023-04-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0057-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-02-22",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 2 diagnosed",
+      "encounter_id": "CI-0057-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-09-02",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0057-ENC-004",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2025-10-23",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0057-ENC-008",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0057-ENC-005",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2026-02-22",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0057-ENC-007",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

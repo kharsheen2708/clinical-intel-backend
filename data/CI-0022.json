@@ -1,0 +1,807 @@
+{
+  "patient_id": "CI-0022",
+  "synthetic": true,
+  "name": {
+    "first": "Vivaan",
+    "last": "Fasting Glucose",
+    "display": "Vivaan Fasting Glucose"
+  },
+  "date_of_birth": "1980-11-03",
+  "age": 46,
+  "gender": "Female",
+  "abha_id": "SYN-0022-5107",
+  "contact": {
+    "phone": "+91-9205444031",
+    "city": "Pune"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Sulfonamides Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hypothyroidism",
+        "code": "E03.9"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "2000 mg",
+        "frequency": "BD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "OD",
+        "indication": "Hypothyroidism"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2026-03-10",
+          "value": 143.3,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-08-11",
+          "value": 186.4,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Free T4",
+        "previous": {
+          "date": "2025-08-08",
+          "value": 1.09,
+          "unit": "ng/dL"
+        },
+        "current": {
+          "date": "2026-03-10",
+          "value": 0.79,
+          "unit": "ng/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2026-03-10",
+          "value": 7.7,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-08-11",
+          "value": 8.4,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "TSH",
+        "previous": {
+          "date": "2025-08-08",
+          "value": 8.4,
+          "unit": "mIU/L"
+        },
+        "current": {
+          "date": "2026-03-10",
+          "value": 4.8,
+          "unit": "mIU/L"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2024-09-23",
+          "value": "2000 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0022-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-04-28",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0022-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-10-19",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0022-COND-003",
+      "name": "Hypothyroidism",
+      "code": "E03.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-12-03",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0022-ALG-001",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-08-11",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    },
+    {
+      "allergy_id": "CI-0022-ALG-002",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2026-03-05",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    },
+    {
+      "allergy_id": "CI-0022-ALG-003",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2021-10-27",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Dust.pdf"
+    },
+    {
+      "allergy_id": "CI-0022-ALG-004",
+      "substance": "Dust",
+      "reaction": "rhinitis",
+      "criticality": "low",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2024-04-05",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Dust.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0022-MED-001",
+      "name": "Metformin",
+      "dose": "2000 mg",
+      "frequency": "BD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2022-11-12",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0022-ENC-001",
+      "last_changed": "2024-09-23"
+    },
+    {
+      "medication_id": "CI-0022-MED-002",
+      "name": "Losartan",
+      "dose": "50 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2021-04-14",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0022-ENC-002"
+    },
+    {
+      "medication_id": "CI-0022-MED-003",
+      "name": "Levothyroxine",
+      "dose": "75 mcg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hypothyroidism",
+      "start_date": "2022-01-13",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0022-ENC-003"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0022-OBS-001",
+      "date": "2025-08-08",
+      "name": "TSH",
+      "value": 8.4,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0022-OBS-002",
+      "date": "2025-08-08",
+      "name": "Free T4",
+      "value": 1.09,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0022-OBS-003",
+      "date": "2024-09-23",
+      "name": "Systolic BP",
+      "value": 136.2,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-004",
+      "date": "2024-09-23",
+      "name": "Diastolic BP",
+      "value": 73.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-005",
+      "date": "2026-03-10",
+      "name": "HbA1c",
+      "value": 7.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0022-OBS-006",
+      "date": "2026-03-10",
+      "name": "Fasting Glucose",
+      "value": 143.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0022-OBS-007",
+      "date": "2026-03-10",
+      "name": "TSH",
+      "value": 4.8,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0022-OBS-008",
+      "date": "2026-03-10",
+      "name": "Free T4",
+      "value": 0.79,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0022-OBS-009",
+      "date": "2024-12-31",
+      "name": "TSH",
+      "value": 4.0,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-010",
+      "date": "2024-12-31",
+      "name": "Free T4",
+      "value": 1.16,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-011",
+      "date": "2026-08-11",
+      "name": "HbA1c",
+      "value": 8.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0022-OBS-012",
+      "date": "2026-08-11",
+      "name": "Fasting Glucose",
+      "value": 186.4,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0022-OBS-013",
+      "date": "2022-09-10",
+      "name": "TSH",
+      "value": 3.0,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-014",
+      "date": "2022-09-10",
+      "name": "Free T4",
+      "value": 0.71,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-015",
+      "date": "2022-09-10",
+      "name": "HbA1c",
+      "value": 8.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0022-OBS-016",
+      "date": "2022-09-10",
+      "name": "Fasting Glucose",
+      "value": 126.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0022-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0022-ENC-002",
+      "date": "2021-04-04",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/89",
+        "heart_rate": 96,
+        "respiratory_rate": 17,
+        "temperature_c": 36.5,
+        "spo2": 96,
+        "weight_kg": 90.3
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-003",
+      "date": "2021-12-30",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to hypothyroidism",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "131/96",
+        "heart_rate": 95,
+        "respiratory_rate": 17,
+        "temperature_c": 37.3,
+        "spo2": 95,
+        "weight_kg": 59.6
+      },
+      "notes": "Hypothyroidism documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-009",
+      "date": "2022-09-10",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "131/95",
+        "heart_rate": 82,
+        "respiratory_rate": 17,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 91.6
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-001",
+      "date": "2022-10-27",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "149/97",
+        "heart_rate": 84,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 97,
+        "weight_kg": 76.0
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-005",
+      "date": "2024-09-23",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/77",
+        "heart_rate": 94,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 94,
+        "weight_kg": 83.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-007",
+      "date": "2024-12-31",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/88",
+        "heart_rate": 66,
+        "respiratory_rate": 18,
+        "temperature_c": 37.2,
+        "spo2": 95,
+        "weight_kg": 81.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-004",
+      "date": "2025-08-08",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/97",
+        "heart_rate": 67,
+        "respiratory_rate": 20,
+        "temperature_c": 36.6,
+        "spo2": 98,
+        "weight_kg": 67.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-006",
+      "date": "2026-03-10",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "121/77",
+        "heart_rate": 76,
+        "respiratory_rate": 15,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 94.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0022-ENC-008",
+      "date": "2026-08-11",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "152/81",
+        "heart_rate": 100,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 99,
+        "weight_kg": 92.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0022-DOC-006",
+      "date": "2022-09-10",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2022-09-10.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0022-ENC-009"
+    },
+    {
+      "document_id": "CI-0022-DOC-002",
+      "date": "2024-09-23",
+      "type": "Progress Note",
+      "file_name": "Consultation_2024-09-23.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0022-ENC-005"
+    },
+    {
+      "document_id": "CI-0022-DOC-004",
+      "date": "2024-12-31",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-12-31.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0022-ENC-007"
+    },
+    {
+      "document_id": "CI-0022-DOC-001",
+      "date": "2025-08-08",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2025-08-08.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0022-ENC-004"
+    },
+    {
+      "document_id": "CI-0022-DOC-003",
+      "date": "2026-03-10",
+      "type": "Progress Note",
+      "file_name": "Consultation_2026-03-10.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0022-ENC-006"
+    },
+    {
+      "document_id": "CI-0022-DOC-005",
+      "date": "2026-08-11",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2026-08-11.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0022-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-04-04",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0022-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-04-14",
+      "type": "medication_started",
+      "title": "Losartan started",
+      "details": "50 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0022-ENC-002",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2021-12-30",
+      "type": "diagnosis",
+      "title": "Hypothyroidism diagnosed",
+      "encounter_id": "CI-0022-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2022-01-13",
+      "type": "medication_started",
+      "title": "Levothyroxine started",
+      "details": "75 mcg OD for Hypothyroidism",
+      "encounter_id": "CI-0022-ENC-003",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2022-09-10",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0022-ENC-009",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-10-27",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0022-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2022-11-12",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "1000 mg BD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0022-ENC-001",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-09-23",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "1000 mg → 2000 mg",
+      "encounter_id": "CI-0022-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2024-12-31",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0022-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2025-08-08",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0022-ENC-004",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0022-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0022-ENC-008",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

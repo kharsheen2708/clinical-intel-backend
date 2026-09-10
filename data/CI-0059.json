@@ -1,0 +1,724 @@
+{
+  "patient_id": "CI-0059",
+  "synthetic": true,
+  "name": {
+    "first": "Sara",
+    "last": "eGFR",
+    "display": "Sara eGFR"
+  },
+  "date_of_birth": "1982-11-01",
+  "age": 44,
+  "gender": "Female",
+  "abha_id": "SYN-0059-7904",
+  "contact": {
+    "phone": "+91-9380118955",
+    "city": "Pune"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 2",
+        "code": "N18.2"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Creatinine",
+        "previous": {
+          "date": "2026-01-04",
+          "value": 0.99,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-01-20",
+          "value": 1.15,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2024-06-17",
+          "value": 129.6,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2026-01-04",
+          "value": 134.6,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2024-06-17",
+          "value": 9.0,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2026-01-04",
+          "value": 9.4,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "eGFR",
+        "previous": {
+          "date": "2026-01-04",
+          "value": 59.6,
+          "unit": "mL/min/1.73m²"
+        },
+        "current": {
+          "date": "2026-01-20",
+          "value": 77.4,
+          "unit": "mL/min/1.73m²"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0059-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-05-28",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0059-COND-002",
+      "name": "Chronic Kidney Disease, Stage 2",
+      "code": "N18.2",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2024-07-04",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [],
+  "medications": [
+    {
+      "medication_id": "CI-0059-MED-001",
+      "name": "Sitagliptin",
+      "dose": "100 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2021-10-09",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0059-ENC-001"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0059-OBS-001",
+      "date": "2026-01-20",
+      "name": "Creatinine",
+      "value": 1.15,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-002",
+      "date": "2026-01-20",
+      "name": "eGFR",
+      "value": 77.4,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-003",
+      "date": "2026-01-04",
+      "name": "Creatinine",
+      "value": 0.99,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-004",
+      "date": "2026-01-04",
+      "name": "eGFR",
+      "value": 59.6,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-005",
+      "date": "2026-01-04",
+      "name": "HbA1c",
+      "value": 9.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-006",
+      "date": "2026-01-04",
+      "name": "Fasting Glucose",
+      "value": 134.6,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-007",
+      "date": "2022-04-03",
+      "name": "Creatinine",
+      "value": 1.17,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-008",
+      "date": "2022-04-03",
+      "name": "eGFR",
+      "value": 88.8,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-009",
+      "date": "2025-06-07",
+      "name": "Creatinine",
+      "value": 0.99,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-010",
+      "date": "2025-06-07",
+      "name": "eGFR",
+      "value": 73.7,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-011",
+      "date": "2023-06-02",
+      "name": "HbA1c",
+      "value": 8.5,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-012",
+      "date": "2023-06-02",
+      "name": "Fasting Glucose",
+      "value": 122.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-013",
+      "date": "2024-01-07",
+      "name": "Creatinine",
+      "value": 1.23,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-014",
+      "date": "2024-01-07",
+      "name": "eGFR",
+      "value": 60.8,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-015",
+      "date": "2024-06-17",
+      "name": "HbA1c",
+      "value": 9.0,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-009",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-016",
+      "date": "2024-06-17",
+      "name": "Fasting Glucose",
+      "value": 129.6,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-009",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0059-OBS-017",
+      "date": "2025-12-11",
+      "name": "Creatinine",
+      "value": 1.31,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-010",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0059-OBS-018",
+      "date": "2025-12-11",
+      "name": "eGFR",
+      "value": 87.2,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0059-ENC-010",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0059-ENC-002",
+      "date": "2021-02-26",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 2",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "159/92",
+        "heart_rate": 90,
+        "respiratory_rate": 14,
+        "temperature_c": 37.2,
+        "spo2": 97,
+        "weight_kg": 93.5
+      },
+      "notes": "Chronic Kidney Disease, Stage 2 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-001",
+      "date": "2021-10-09",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/98",
+        "heart_rate": 89,
+        "respiratory_rate": 15,
+        "temperature_c": 36.4,
+        "spo2": 98,
+        "weight_kg": 59.8
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-005",
+      "date": "2022-04-03",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "138/96",
+        "heart_rate": 74,
+        "respiratory_rate": 17,
+        "temperature_c": 36.4,
+        "spo2": 94,
+        "weight_kg": 86.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-007",
+      "date": "2023-06-02",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "145/98",
+        "heart_rate": 93,
+        "respiratory_rate": 17,
+        "temperature_c": 36.4,
+        "spo2": 93,
+        "weight_kg": 82.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-008",
+      "date": "2024-01-07",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/95",
+        "heart_rate": 93,
+        "respiratory_rate": 21,
+        "temperature_c": 36.5,
+        "spo2": 94,
+        "weight_kg": 79.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-009",
+      "date": "2024-06-17",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/75",
+        "heart_rate": 91,
+        "respiratory_rate": 17,
+        "temperature_c": 36.4,
+        "spo2": 97,
+        "weight_kg": 69.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-006",
+      "date": "2025-06-07",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "156/92",
+        "heart_rate": 61,
+        "respiratory_rate": 16,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 74.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-010",
+      "date": "2025-12-11",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "152/90",
+        "heart_rate": 75,
+        "respiratory_rate": 18,
+        "temperature_c": 36.8,
+        "spo2": 93,
+        "weight_kg": 78.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-004",
+      "date": "2026-01-04",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "142/87",
+        "heart_rate": 98,
+        "respiratory_rate": 16,
+        "temperature_c": 37.0,
+        "spo2": 97,
+        "weight_kg": 88.3
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0059-ENC-003",
+      "date": "2026-01-20",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 2",
+          "code": "N18.2",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/94",
+        "heart_rate": 93,
+        "respiratory_rate": 20,
+        "temperature_c": 36.9,
+        "spo2": 94,
+        "weight_kg": 83.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0059-DOC-003",
+      "date": "2022-04-03",
+      "type": "Consultation Note",
+      "file_name": "Consultation_2022-04-03.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0059-ENC-005"
+    },
+    {
+      "document_id": "CI-0059-DOC-005",
+      "date": "2023-06-02",
+      "type": "Lab Report",
+      "file_name": "Consultation_2023-06-02.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0059-ENC-007"
+    },
+    {
+      "document_id": "CI-0059-DOC-006",
+      "date": "2024-01-07",
+      "type": "Lab Report",
+      "file_name": "Consultation_2024-01-07.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0059-ENC-008"
+    },
+    {
+      "document_id": "CI-0059-DOC-007",
+      "date": "2024-06-17",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2024-06-17.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0059-ENC-009"
+    },
+    {
+      "document_id": "CI-0059-DOC-004",
+      "date": "2025-06-07",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2025-06-07.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0059-ENC-006"
+    },
+    {
+      "document_id": "CI-0059-DOC-008",
+      "date": "2025-12-11",
+      "type": "Prescription",
+      "file_name": "Consultation_2025-12-11.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0059-ENC-010"
+    },
+    {
+      "document_id": "CI-0059-DOC-002",
+      "date": "2026-01-04",
+      "type": "Progress Note",
+      "file_name": "Consultation_2026-01-04.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0059-ENC-004"
+    },
+    {
+      "document_id": "CI-0059-DOC-001",
+      "date": "2026-01-20",
+      "type": "Prescription",
+      "file_name": "Progress_Note_2026-01-20.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0059-ENC-003"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-02-26",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 2 diagnosed",
+      "encounter_id": "CI-0059-ENC-002",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2021-10-09",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0059-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2021-10-09",
+      "type": "medication_started",
+      "title": "Sitagliptin started",
+      "details": "100 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0059-ENC-001",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-04-03",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0059-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-06-02",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0059-ENC-007",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-01-07",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0059-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2025-06-07",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0059-ENC-006",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0059-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

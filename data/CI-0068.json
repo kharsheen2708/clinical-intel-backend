@@ -1,0 +1,657 @@
+{
+  "patient_id": "CI-0068",
+  "synthetic": true,
+  "name": {
+    "first": "Vihaan",
+    "last": "Free T4",
+    "display": "Vihaan Free T4"
+  },
+  "date_of_birth": "1976-05-26",
+  "age": 50,
+  "gender": "Male",
+  "abha_id": "SYN-0068-4276",
+  "contact": {
+    "phone": "+91-9703267230",
+    "city": "Mumbai"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Ibuprofen Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Hypothyroidism",
+        "code": "E03.9"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "50 mcg",
+        "frequency": "OD",
+        "indication": "Hypothyroidism"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Free T4",
+        "previous": {
+          "date": "2026-03-30",
+          "value": 0.92,
+          "unit": "ng/dL"
+        },
+        "current": {
+          "date": "2026-05-14",
+          "value": 0.84,
+          "unit": "ng/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "TSH",
+        "previous": {
+          "date": "2026-03-30",
+          "value": 6.5,
+          "unit": "mIU/L"
+        },
+        "current": {
+          "date": "2026-05-14",
+          "value": 3.3,
+          "unit": "mIU/L"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0068-COND-001",
+      "name": "Hypothyroidism",
+      "code": "E03.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-02-14",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0068-ALG-001",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-09-14",
+      "source_hospital": "Lotus Heart Institute",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    },
+    {
+      "allergy_id": "CI-0068-ALG-002",
+      "substance": "Ibuprofen",
+      "reaction": "facial swelling",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-09-09",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Ibuprofen.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0068-MED-001",
+      "name": "Levothyroxine",
+      "dose": "50 mcg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hypothyroidism",
+      "start_date": "2017-05-24",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0068-ENC-001"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0068-OBS-001",
+      "date": "2022-08-27",
+      "name": "TSH",
+      "value": 5.1,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0068-OBS-002",
+      "date": "2022-08-27",
+      "name": "Free T4",
+      "value": 0.99,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0068-OBS-003",
+      "date": "2023-05-31",
+      "name": "TSH",
+      "value": 6.7,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0068-OBS-004",
+      "date": "2023-05-31",
+      "name": "Free T4",
+      "value": 0.9,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0068-OBS-005",
+      "date": "2026-03-30",
+      "name": "TSH",
+      "value": 6.5,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0068-OBS-006",
+      "date": "2026-03-30",
+      "name": "Free T4",
+      "value": 0.92,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0068-OBS-007",
+      "date": "2026-05-14",
+      "name": "TSH",
+      "value": 3.3,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0068-OBS-008",
+      "date": "2026-05-14",
+      "name": "Free T4",
+      "value": 0.84,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0068-OBS-009",
+      "date": "2025-06-03",
+      "name": "TSH",
+      "value": 4.5,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0068-OBS-010",
+      "date": "2025-06-03",
+      "name": "Free T4",
+      "value": 1.05,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0068-OBS-011",
+      "date": "2024-05-21",
+      "name": "TSH",
+      "value": 3.5,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0068-OBS-012",
+      "date": "2024-05-21",
+      "name": "Free T4",
+      "value": 1.03,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-007",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0068-OBS-013",
+      "date": "2022-02-18",
+      "name": "TSH",
+      "value": 8.6,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0068-OBS-014",
+      "date": "2022-02-18",
+      "name": "Free T4",
+      "value": 0.96,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-008",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0068-OBS-015",
+      "date": "2025-11-09",
+      "name": "TSH",
+      "value": 2.8,
+      "unit": "mIU/L",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0068-OBS-016",
+      "date": "2025-11-09",
+      "name": "Free T4",
+      "value": 0.68,
+      "unit": "ng/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0068-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0068-ENC-001",
+      "date": "2017-05-18",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to hypothyroidism",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "133/90",
+        "heart_rate": 92,
+        "respiratory_rate": 17,
+        "temperature_c": 36.5,
+        "spo2": 95,
+        "weight_kg": 67.8
+      },
+      "notes": "Hypothyroidism documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-008",
+      "date": "2022-02-18",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "157/88",
+        "heart_rate": 88,
+        "respiratory_rate": 18,
+        "temperature_c": 36.4,
+        "spo2": 94,
+        "weight_kg": 61.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-002",
+      "date": "2022-08-27",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "137/90",
+        "heart_rate": 60,
+        "respiratory_rate": 20,
+        "temperature_c": 37.3,
+        "spo2": 93,
+        "weight_kg": 86.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-003",
+      "date": "2023-05-31",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "150/81",
+        "heart_rate": 79,
+        "respiratory_rate": 18,
+        "temperature_c": 37.3,
+        "spo2": 94,
+        "weight_kg": 69.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-007",
+      "date": "2024-05-21",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "144/83",
+        "heart_rate": 68,
+        "respiratory_rate": 21,
+        "temperature_c": 37.2,
+        "spo2": 93,
+        "weight_kg": 90.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-006",
+      "date": "2025-06-03",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "132/80",
+        "heart_rate": 90,
+        "respiratory_rate": 18,
+        "temperature_c": 36.7,
+        "spo2": 95,
+        "weight_kg": 69.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-009",
+      "date": "2025-11-09",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "121/92",
+        "heart_rate": 81,
+        "respiratory_rate": 18,
+        "temperature_c": 36.9,
+        "spo2": 96,
+        "weight_kg": 94.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-004",
+      "date": "2026-03-30",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/74",
+        "heart_rate": 87,
+        "respiratory_rate": 18,
+        "temperature_c": 36.4,
+        "spo2": 99,
+        "weight_kg": 74.1
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0068-ENC-005",
+      "date": "2026-05-14",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Hypothyroidism",
+          "code": "E03.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "124/93",
+        "heart_rate": 79,
+        "respiratory_rate": 17,
+        "temperature_c": 37.0,
+        "spo2": 94,
+        "weight_kg": 68.9
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0068-DOC-007",
+      "date": "2022-02-18",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2022-02-18.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0068-ENC-008"
+    },
+    {
+      "document_id": "CI-0068-DOC-001",
+      "date": "2022-08-27",
+      "type": "Progress Note",
+      "file_name": "Consultation_2022-08-27.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0068-ENC-002"
+    },
+    {
+      "document_id": "CI-0068-DOC-002",
+      "date": "2023-05-31",
+      "type": "Progress Note",
+      "file_name": "Consultation_2023-05-31.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0068-ENC-003"
+    },
+    {
+      "document_id": "CI-0068-DOC-006",
+      "date": "2024-05-21",
+      "type": "Prescription",
+      "file_name": "Prescription_2024-05-21.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0068-ENC-007"
+    },
+    {
+      "document_id": "CI-0068-DOC-005",
+      "date": "2025-06-03",
+      "type": "Progress Note",
+      "file_name": "Prescription_2025-06-03.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0068-ENC-006"
+    },
+    {
+      "document_id": "CI-0068-DOC-008",
+      "date": "2025-11-09",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2025-11-09.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0068-ENC-009"
+    },
+    {
+      "document_id": "CI-0068-DOC-003",
+      "date": "2026-03-30",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2026-03-30.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0068-ENC-004"
+    },
+    {
+      "document_id": "CI-0068-DOC-004",
+      "date": "2026-05-14",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2026-05-14.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0068-ENC-005"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017-05-18",
+      "type": "diagnosis",
+      "title": "Hypothyroidism diagnosed",
+      "encounter_id": "CI-0068-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2017-05-24",
+      "type": "medication_started",
+      "title": "Levothyroxine started",
+      "details": "50 mcg OD for Hypothyroidism",
+      "encounter_id": "CI-0068-ENC-001",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-08-27",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0068-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-05-31",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0068-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2025-06-03",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0068-ENC-006",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2025-11-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0068-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0068-ENC-004",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0068-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

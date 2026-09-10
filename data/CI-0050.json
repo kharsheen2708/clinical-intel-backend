@@ -1,0 +1,729 @@
+{
+  "patient_id": "CI-0050",
+  "synthetic": true,
+  "name": {
+    "first": "Kunal",
+    "last": "Fasting Glucose",
+    "display": "Kunal Fasting Glucose"
+  },
+  "date_of_birth": "1973-05-16",
+  "age": 53,
+  "gender": "Male",
+  "abha_id": "SYN-0050-5986",
+  "contact": {
+    "phone": "+91-9219752941",
+    "city": "Mumbai"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Metformin",
+        "dose": "2000 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2024-08-21",
+          "value": 75.7,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-11-10",
+          "value": 92.3,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2024-08-21",
+          "value": 179.0,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2024-11-10",
+          "value": 145.1,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2024-08-21",
+          "value": 7.6,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2024-11-10",
+          "value": 7.1,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2024-08-21",
+          "value": 124.9,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2024-11-10",
+          "value": 117.6,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Metformin dose",
+        "previous": null,
+        "current": {
+          "date": "2023-05-23",
+          "value": "2000 mg",
+          "unit": ""
+        },
+        "status": "dose_changed"
+      }
+    ],
+    "last_hospitalization": null
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0050-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2023-10-13",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0050-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2020-02-08",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0050-ALG-001",
+      "substance": "Latex",
+      "reaction": "contact dermatitis",
+      "criticality": "moderate",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2026-04-27",
+      "source_hospital": "Apollo Heights Hospital",
+      "source_document": "Allergy_Record_Latex.pdf"
+    },
+    {
+      "allergy_id": "CI-0050-ALG-002",
+      "substance": "Latex",
+      "reaction": "contact dermatitis",
+      "criticality": "moderate",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2023-10-04",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Latex.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0050-MED-001",
+      "name": "Metformin",
+      "dose": "2000 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2021-10-06",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0050-ENC-001",
+      "last_changed": "2023-05-23"
+    },
+    {
+      "medication_id": "CI-0050-MED-002",
+      "name": "Losartan",
+      "dose": "50 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2021-04-05",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Neha Shah",
+      "source_encounter": "CI-0050-ENC-002"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0050-OBS-001",
+      "date": "2024-08-21",
+      "name": "HbA1c",
+      "value": 7.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-002",
+      "date": "2024-08-21",
+      "name": "Fasting Glucose",
+      "value": 179.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-003",
+      "date": "2024-08-21",
+      "name": "Systolic BP",
+      "value": 124.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-004",
+      "date": "2024-08-21",
+      "name": "Diastolic BP",
+      "value": 75.7,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-005",
+      "date": "2024-03-19",
+      "name": "HbA1c",
+      "value": 8.8,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-006",
+      "date": "2024-03-19",
+      "name": "Fasting Glucose",
+      "value": 171.3,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-007",
+      "date": "2022-09-27",
+      "name": "HbA1c",
+      "value": 7.9,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0050-OBS-008",
+      "date": "2022-09-27",
+      "name": "Fasting Glucose",
+      "value": 129.0,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0050-OBS-009",
+      "date": "2023-05-23",
+      "name": "HbA1c",
+      "value": 8.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0050-OBS-010",
+      "date": "2023-05-23",
+      "name": "Fasting Glucose",
+      "value": 156.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0050-OBS-011",
+      "date": "2023-04-15",
+      "name": "HbA1c",
+      "value": 7.4,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0050-OBS-012",
+      "date": "2023-04-15",
+      "name": "Fasting Glucose",
+      "value": 158.8,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0050-OBS-013",
+      "date": "2023-04-15",
+      "name": "Systolic BP",
+      "value": 126.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0050-OBS-014",
+      "date": "2023-04-15",
+      "name": "Diastolic BP",
+      "value": 80.1,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0050-OBS-015",
+      "date": "2024-11-10",
+      "name": "Systolic BP",
+      "value": 117.6,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-016",
+      "date": "2024-11-10",
+      "name": "Diastolic BP",
+      "value": 92.3,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-017",
+      "date": "2024-11-10",
+      "name": "HbA1c",
+      "value": 7.1,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "observation_id": "CI-0050-OBS-018",
+      "date": "2024-11-10",
+      "name": "Fasting Glucose",
+      "value": 145.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0050-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0050-ENC-002",
+      "date": "2021-03-28",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "123/88",
+        "heart_rate": 94,
+        "respiratory_rate": 15,
+        "temperature_c": 36.8,
+        "spo2": 98,
+        "weight_kg": 55.3
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-001",
+      "date": "2021-10-03",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "137/83",
+        "heart_rate": 68,
+        "respiratory_rate": 14,
+        "temperature_c": 36.7,
+        "spo2": 96,
+        "weight_kg": 71.1
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-005",
+      "date": "2022-09-27",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "150/72",
+        "heart_rate": 75,
+        "respiratory_rate": 14,
+        "temperature_c": 37.1,
+        "spo2": 95,
+        "weight_kg": 73.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-007",
+      "date": "2023-04-15",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/91",
+        "heart_rate": 72,
+        "respiratory_rate": 15,
+        "temperature_c": 37.3,
+        "spo2": 96,
+        "weight_kg": 72.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-006",
+      "date": "2023-05-23",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "125/80",
+        "heart_rate": 75,
+        "respiratory_rate": 20,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 88.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-004",
+      "date": "2024-03-19",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "160/80",
+        "heart_rate": 67,
+        "respiratory_rate": 20,
+        "temperature_c": 36.9,
+        "spo2": 96,
+        "weight_kg": 89.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-003",
+      "date": "2024-08-21",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "146/93",
+        "heart_rate": 88,
+        "respiratory_rate": 16,
+        "temperature_c": 36.5,
+        "spo2": 98,
+        "weight_kg": 73.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0050-ENC-008",
+      "date": "2024-11-10",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "Sunrise Medical Centre",
+      "city": "Navi Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "163/85",
+        "heart_rate": 75,
+        "respiratory_rate": 19,
+        "temperature_c": 37.4,
+        "spo2": 94,
+        "weight_kg": 56.8
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0050-DOC-003",
+      "date": "2022-09-27",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2022-09-27.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0050-ENC-005"
+    },
+    {
+      "document_id": "CI-0050-DOC-005",
+      "date": "2023-04-15",
+      "type": "Progress Note",
+      "file_name": "Consultation_2023-04-15.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0050-ENC-007"
+    },
+    {
+      "document_id": "CI-0050-DOC-004",
+      "date": "2023-05-23",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2023-05-23.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0050-ENC-006"
+    },
+    {
+      "document_id": "CI-0050-DOC-002",
+      "date": "2024-03-19",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2024-03-19.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0050-ENC-004"
+    },
+    {
+      "document_id": "CI-0050-DOC-001",
+      "date": "2024-08-21",
+      "type": "Consultation Note",
+      "file_name": "Lab_Report_2024-08-21.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0050-ENC-003"
+    },
+    {
+      "document_id": "CI-0050-DOC-006",
+      "date": "2024-11-10",
+      "type": "Consultation Note",
+      "file_name": "Progress_Note_2024-11-10.pdf",
+      "hospital": "Sunrise Medical Centre",
+      "encounter_id": "CI-0050-ENC-008"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-03-28",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0050-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2021-04-05",
+      "type": "medication_started",
+      "title": "Losartan started",
+      "details": "50 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0050-ENC-002",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2021-10-03",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0050-ENC-001",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2021-10-06",
+      "type": "medication_started",
+      "title": "Metformin started",
+      "details": "500 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0050-ENC-001",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2023-04-15",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0050-ENC-007",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2023-05-23",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "1500 mg → 2000 mg",
+      "encounter_id": "CI-0050-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2024-03-19",
+      "type": "medication_changed",
+      "title": "Metformin dose changed",
+      "details": "500 mg → 1500 mg",
+      "encounter_id": "CI-0050-ENC-004",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-08-21",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0050-ENC-003",
+      "source_hospital": "Sunrise Medical Centre"
+    },
+    {
+      "date": "2024-11-10",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0050-ENC-008",
+      "source_hospital": "Sunrise Medical Centre"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}

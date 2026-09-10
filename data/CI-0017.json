@@ -1,0 +1,1025 @@
+{
+  "patient_id": "CI-0017",
+  "synthetic": true,
+  "name": {
+    "first": "Riya",
+    "last": "Diastolic BP",
+    "display": "Riya Diastolic BP"
+  },
+  "date_of_birth": "1976-06-13",
+  "age": 50,
+  "gender": "Male",
+  "abha_id": "SYN-0017-1547",
+  "contact": {
+    "phone": "+91-9416655712",
+    "city": "Mumbai"
+  },
+  "consent": {
+    "status": "active",
+    "scope": "clinical_history",
+    "last_updated": "2026-08-01"
+  },
+  "clinical_snapshot": {
+    "critical_alerts": [
+      "Sulfonamides Allergy",
+      "Penicillin Allergy"
+    ],
+    "chronic_conditions": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "code": "E11.9"
+      },
+      {
+        "name": "Essential Hypertension",
+        "code": "I10"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "code": "E78.5"
+      },
+      {
+        "name": "Chronic Kidney Disease, Stage 3",
+        "code": "N18.3"
+      },
+      {
+        "name": "Osteoarthritis",
+        "code": "M19.90"
+      }
+    ],
+    "current_medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100 mg",
+        "frequency": "OD",
+        "indication": "Type 2 Diabetes Mellitus"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "OD",
+        "indication": "Essential Hypertension"
+      },
+      {
+        "name": "Rosuvastatin",
+        "dose": "10 mg",
+        "frequency": "OD",
+        "indication": "Hyperlipidemia"
+      },
+      {
+        "name": "Paracetamol",
+        "dose": "650 mg",
+        "frequency": "SOS",
+        "indication": "Osteoarthritis"
+      }
+    ],
+    "recent_changes": [
+      {
+        "measure": "Creatinine",
+        "previous": {
+          "date": "2024-09-09",
+          "value": 1.26,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2025-03-08",
+          "value": 1.73,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Diastolic BP",
+        "previous": {
+          "date": "2022-07-25",
+          "value": 97.4,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-07-26",
+          "value": 96.5,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Fasting Glucose",
+        "previous": {
+          "date": "2022-12-30",
+          "value": 134.5,
+          "unit": "mg/dL"
+        },
+        "current": {
+          "date": "2023-11-29",
+          "value": 185.1,
+          "unit": "mg/dL"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "HbA1c",
+        "previous": {
+          "date": "2022-12-30",
+          "value": 6.7,
+          "unit": "%"
+        },
+        "current": {
+          "date": "2023-11-29",
+          "value": 7.6,
+          "unit": "%"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "Systolic BP",
+        "previous": {
+          "date": "2022-07-25",
+          "value": 149.9,
+          "unit": "mmHg"
+        },
+        "current": {
+          "date": "2025-07-26",
+          "value": 163.5,
+          "unit": "mmHg"
+        },
+        "status": "changed"
+      },
+      {
+        "measure": "eGFR",
+        "previous": {
+          "date": "2024-09-09",
+          "value": 58.8,
+          "unit": "mL/min/1.73m²"
+        },
+        "current": {
+          "date": "2025-03-08",
+          "value": 30.0,
+          "unit": "mL/min/1.73m²"
+        },
+        "status": "changed"
+      }
+    ],
+    "last_hospitalization": {
+      "encounter_id": "CI-0017-ENC-011",
+      "date": "2022-12-30",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "157/79",
+        "heart_rate": 100,
+        "respiratory_rate": 15,
+        "temperature_c": 37.4,
+        "spo2": 94,
+        "weight_kg": 69.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  },
+  "conditions": [
+    {
+      "condition_id": "CI-0017-COND-001",
+      "name": "Type 2 Diabetes Mellitus",
+      "code": "E11.9",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-10-02",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0017-COND-002",
+      "name": "Essential Hypertension",
+      "code": "I10",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2021-02-08",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0017-COND-003",
+      "name": "Hyperlipidemia",
+      "code": "E78.5",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2019-05-09",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0017-COND-004",
+      "name": "Chronic Kidney Disease, Stage 3",
+      "code": "N18.3",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2019-01-04",
+      "source": "synthetic_clinical_record"
+    },
+    {
+      "condition_id": "CI-0017-COND-005",
+      "name": "Osteoarthritis",
+      "code": "M19.90",
+      "clinical_status": "active",
+      "verification_status": "confirmed",
+      "onset_date": "2022-01-05",
+      "source": "synthetic_clinical_record"
+    }
+  ],
+  "allergies": [
+    {
+      "allergy_id": "CI-0017-ALG-001",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2025-03-18",
+      "source_hospital": "XYZ Multispeciality Hospital",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    },
+    {
+      "allergy_id": "CI-0017-ALG-002",
+      "substance": "Sulfonamides",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-02-20",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Sulfonamides.pdf"
+    },
+    {
+      "allergy_id": "CI-0017-ALG-003",
+      "substance": "Penicillin",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2023-07-13",
+      "source_hospital": "Sunrise Medical Centre",
+      "source_document": "Allergy_Record_Penicillin.pdf"
+    },
+    {
+      "allergy_id": "CI-0017-ALG-004",
+      "substance": "Penicillin",
+      "reaction": "rash",
+      "criticality": "high",
+      "status": "active",
+      "verification_status": "confirmed",
+      "recorded_date": "2022-10-29",
+      "source_hospital": "Fortis Central",
+      "source_document": "Allergy_Record_Penicillin.pdf"
+    }
+  ],
+  "medications": [
+    {
+      "medication_id": "CI-0017-MED-001",
+      "name": "Sitagliptin",
+      "dose": "100 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2019-05-16",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0017-ENC-001"
+    },
+    {
+      "medication_id": "CI-0017-MED-002",
+      "name": "Losartan",
+      "dose": "50 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Essential Hypertension",
+      "start_date": "2018-07-28",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Rohan Mehta",
+      "source_encounter": "CI-0017-ENC-002"
+    },
+    {
+      "medication_id": "CI-0017-MED-003",
+      "name": "Rosuvastatin",
+      "dose": "10 mg",
+      "frequency": "OD",
+      "route": "Oral",
+      "indication": "Hyperlipidemia",
+      "start_date": "2019-08-25",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Priya Nair",
+      "source_encounter": "CI-0017-ENC-003"
+    },
+    {
+      "medication_id": "CI-0017-MED-004",
+      "name": "Paracetamol",
+      "dose": "650 mg",
+      "frequency": "SOS",
+      "route": "Oral",
+      "indication": "Osteoarthritis",
+      "start_date": "2019-07-22",
+      "end_date": null,
+      "status": "active",
+      "prescribed_by": "Dr. Amit Verma",
+      "source_encounter": "CI-0017-ENC-005"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "CI-0017-OBS-001",
+      "date": "2024-09-09",
+      "name": "Creatinine",
+      "value": 1.26,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0017-OBS-002",
+      "date": "2024-09-09",
+      "name": "eGFR",
+      "value": 58.8,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0017-OBS-003",
+      "date": "2024-09-09",
+      "name": "LDL",
+      "value": 122.9,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0017-OBS-004",
+      "date": "2024-09-09",
+      "name": "Total Cholesterol",
+      "value": 226.7,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0017-OBS-005",
+      "date": "2022-07-25",
+      "name": "Systolic BP",
+      "value": 149.9,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0017-OBS-006",
+      "date": "2022-07-25",
+      "name": "Diastolic BP",
+      "value": 97.4,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "observation_id": "CI-0017-OBS-007",
+      "date": "2025-03-08",
+      "name": "Creatinine",
+      "value": 1.73,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0017-OBS-008",
+      "date": "2025-03-08",
+      "name": "eGFR",
+      "value": 30.0,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "observation_id": "CI-0017-OBS-009",
+      "date": "2023-11-29",
+      "name": "HbA1c",
+      "value": 7.6,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0017-OBS-010",
+      "date": "2023-11-29",
+      "name": "Fasting Glucose",
+      "value": 185.1,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-009",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0017-OBS-011",
+      "date": "2023-11-21",
+      "name": "Creatinine",
+      "value": 1.58,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-010",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0017-OBS-012",
+      "date": "2023-11-21",
+      "name": "eGFR",
+      "value": 51.3,
+      "unit": "mL/min/1.73m²",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-010",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "observation_id": "CI-0017-OBS-013",
+      "date": "2022-12-30",
+      "name": "HbA1c",
+      "value": 6.7,
+      "unit": "%",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0017-OBS-014",
+      "date": "2022-12-30",
+      "name": "Fasting Glucose",
+      "value": 134.5,
+      "unit": "mg/dL",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "observation_id": "CI-0017-OBS-015",
+      "date": "2025-07-26",
+      "name": "Systolic BP",
+      "value": 163.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-012",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "observation_id": "CI-0017-OBS-016",
+      "date": "2025-07-26",
+      "name": "Diastolic BP",
+      "value": 96.5,
+      "unit": "mmHg",
+      "reference_note": "Synthetic value for prototype testing",
+      "encounter_id": "CI-0017-ENC-012",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "CI-0017-ENC-002",
+      "date": "2018-07-16",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Evaluation related to essential hypertension",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "125/73",
+        "heart_rate": 91,
+        "respiratory_rate": 14,
+        "temperature_c": 36.6,
+        "spo2": 99,
+        "weight_kg": 72.3
+      },
+      "notes": "Essential Hypertension documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-004",
+      "date": "2018-08-06",
+      "type": "Outpatient",
+      "department": "General Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Kavita Rao",
+      "reason_for_visit": "Evaluation related to chronic kidney disease, stage 3",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "157/91",
+        "heart_rate": 77,
+        "respiratory_rate": 19,
+        "temperature_c": 36.7,
+        "spo2": 98,
+        "weight_kg": 90.3
+      },
+      "notes": "Chronic Kidney Disease, Stage 3 documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-001",
+      "date": "2019-04-21",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to type 2 diabetes mellitus",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "155/90",
+        "heart_rate": 78,
+        "respiratory_rate": 20,
+        "temperature_c": 36.5,
+        "spo2": 95,
+        "weight_kg": 62.9
+      },
+      "notes": "Type 2 Diabetes Mellitus documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-005",
+      "date": "2019-07-10",
+      "type": "Outpatient",
+      "department": "Cardiology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "Evaluation related to osteoarthritis",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "135/84",
+        "heart_rate": 70,
+        "respiratory_rate": 17,
+        "temperature_c": 36.6,
+        "spo2": 99,
+        "weight_kg": 65.0
+      },
+      "notes": "Osteoarthritis documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-003",
+      "date": "2019-07-28",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Evaluation related to hyperlipidemia",
+      "diagnoses": [
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "161/85",
+        "heart_rate": 73,
+        "respiratory_rate": 16,
+        "temperature_c": 36.6,
+        "spo2": 96,
+        "weight_kg": 66.0
+      },
+      "notes": "Hyperlipidemia documented during clinical assessment."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-007",
+      "date": "2022-07-25",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Apollo Heights Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/98",
+        "heart_rate": 71,
+        "respiratory_rate": 16,
+        "temperature_c": 36.6,
+        "spo2": 95,
+        "weight_kg": 89.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-011",
+      "date": "2022-12-30",
+      "type": "Inpatient",
+      "department": "Cardiology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Amit Verma",
+      "reason_for_visit": "hyperglycemia",
+      "diagnoses": [
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        },
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "157/79",
+        "heart_rate": 100,
+        "respiratory_rate": 15,
+        "temperature_c": 37.4,
+        "spo2": 94,
+        "weight_kg": 69.2
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-010",
+      "date": "2023-11-21",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "XYZ Multispeciality Hospital",
+      "city": "Pune",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "159/82",
+        "heart_rate": 71,
+        "respiratory_rate": 19,
+        "temperature_c": 36.6,
+        "spo2": 97,
+        "weight_kg": 90.0
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-009",
+      "date": "2023-11-29",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Lotus Heart Institute",
+      "city": "Thane",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Medication review and dose adjustment",
+      "diagnoses": [
+        {
+          "name": "Type 2 Diabetes Mellitus",
+          "code": "E11.9",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "155/94",
+        "heart_rate": 69,
+        "respiratory_rate": 15,
+        "temperature_c": 37.3,
+        "spo2": 99,
+        "weight_kg": 70.7
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-006",
+      "date": "2024-09-09",
+      "type": "Outpatient",
+      "department": "Nephrology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Priya Nair",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        },
+        {
+          "name": "Hyperlipidemia",
+          "code": "E78.5",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "119/82",
+        "heart_rate": 98,
+        "respiratory_rate": 17,
+        "temperature_c": 36.3,
+        "spo2": 99,
+        "weight_kg": 88.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-008",
+      "date": "2025-03-08",
+      "type": "Outpatient",
+      "department": "Endocrinology",
+      "hospital": "Fortis Central",
+      "city": "Mumbai",
+      "doctor": "Dr. Neha Shah",
+      "reason_for_visit": "Routine laboratory monitoring",
+      "diagnoses": [
+        {
+          "name": "Chronic Kidney Disease, Stage 3",
+          "code": "N18.3",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "129/87",
+        "heart_rate": 62,
+        "respiratory_rate": 15,
+        "temperature_c": 36.4,
+        "spo2": 97,
+        "weight_kg": 64.4
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    },
+    {
+      "encounter_id": "CI-0017-ENC-012",
+      "date": "2025-07-26",
+      "type": "Outpatient",
+      "department": "Internal Medicine",
+      "hospital": "CityCare Hospital",
+      "city": "Mumbai",
+      "doctor": "Dr. Rohan Mehta",
+      "reason_for_visit": "Chronic disease follow-up",
+      "diagnoses": [
+        {
+          "name": "Essential Hypertension",
+          "code": "I10",
+          "status": "active"
+        },
+        {
+          "name": "Osteoarthritis",
+          "code": "M19.90",
+          "status": "active"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "140/80",
+        "heart_rate": 66,
+        "respiratory_rate": 14,
+        "temperature_c": 36.4,
+        "spo2": 96,
+        "weight_kg": 86.5
+      },
+      "notes": "Clinical follow-up and review of previous records."
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "CI-0017-DOC-002",
+      "date": "2022-07-25",
+      "type": "Consultation Note",
+      "file_name": "Prescription_2022-07-25.pdf",
+      "hospital": "Apollo Heights Hospital",
+      "encounter_id": "CI-0017-ENC-007"
+    },
+    {
+      "document_id": "CI-0017-DOC-006",
+      "date": "2022-12-30",
+      "type": "Discharge Summary",
+      "file_name": "Discharge_Summary_2022-12-30.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0017-ENC-011"
+    },
+    {
+      "document_id": "CI-0017-DOC-007",
+      "date": "2022-12-30",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2022-12-30.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0017-ENC-011"
+    },
+    {
+      "document_id": "CI-0017-DOC-005",
+      "date": "2023-11-21",
+      "type": "Prescription",
+      "file_name": "Lab_Report_2023-11-21.pdf",
+      "hospital": "XYZ Multispeciality Hospital",
+      "encounter_id": "CI-0017-ENC-010"
+    },
+    {
+      "document_id": "CI-0017-DOC-004",
+      "date": "2023-11-29",
+      "type": "Progress Note",
+      "file_name": "Consultation_2023-11-29.pdf",
+      "hospital": "Lotus Heart Institute",
+      "encounter_id": "CI-0017-ENC-009"
+    },
+    {
+      "document_id": "CI-0017-DOC-001",
+      "date": "2024-09-09",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2024-09-09.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0017-ENC-006"
+    },
+    {
+      "document_id": "CI-0017-DOC-003",
+      "date": "2025-03-08",
+      "type": "Lab Report",
+      "file_name": "Lab_Report_2025-03-08.pdf",
+      "hospital": "Fortis Central",
+      "encounter_id": "CI-0017-ENC-008"
+    },
+    {
+      "document_id": "CI-0017-DOC-008",
+      "date": "2025-07-26",
+      "type": "Progress Note",
+      "file_name": "Progress_Note_2025-07-26.pdf",
+      "hospital": "CityCare Hospital",
+      "encounter_id": "CI-0017-ENC-012"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-07-16",
+      "type": "diagnosis",
+      "title": "Essential Hypertension diagnosed",
+      "encounter_id": "CI-0017-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2018-07-28",
+      "type": "medication_started",
+      "title": "Losartan started",
+      "details": "50 mg OD for Essential Hypertension",
+      "encounter_id": "CI-0017-ENC-002",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2018-08-06",
+      "type": "diagnosis",
+      "title": "Chronic Kidney Disease, Stage 3 diagnosed",
+      "encounter_id": "CI-0017-ENC-004",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-04-21",
+      "type": "diagnosis",
+      "title": "Type 2 Diabetes Mellitus diagnosed",
+      "encounter_id": "CI-0017-ENC-001",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2019-05-16",
+      "type": "medication_started",
+      "title": "Sitagliptin started",
+      "details": "100 mg OD for Type 2 Diabetes Mellitus",
+      "encounter_id": "CI-0017-ENC-001",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2019-07-10",
+      "type": "diagnosis",
+      "title": "Osteoarthritis diagnosed",
+      "encounter_id": "CI-0017-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-07-22",
+      "type": "medication_started",
+      "title": "Paracetamol started",
+      "details": "650 mg SOS for Osteoarthritis",
+      "encounter_id": "CI-0017-ENC-005",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-07-28",
+      "type": "diagnosis",
+      "title": "Hyperlipidemia diagnosed",
+      "encounter_id": "CI-0017-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2019-08-25",
+      "type": "medication_started",
+      "title": "Rosuvastatin started",
+      "details": "10 mg OD for Hyperlipidemia",
+      "encounter_id": "CI-0017-ENC-003",
+      "source_hospital": "CityCare Hospital"
+    },
+    {
+      "date": "2022-07-25",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0017-ENC-007",
+      "source_hospital": "Apollo Heights Hospital"
+    },
+    {
+      "date": "2022-12-30",
+      "type": "hospitalization",
+      "title": "Hospitalization: Hyperglycemia",
+      "encounter_id": "CI-0017-ENC-011",
+      "source_hospital": "Lotus Heart Institute"
+    },
+    {
+      "date": "2023-11-21",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0017-ENC-010",
+      "source_hospital": "XYZ Multispeciality Hospital"
+    },
+    {
+      "date": "2024-09-09",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0017-ENC-006",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-03-08",
+      "type": "lab_test",
+      "title": "Laboratory assessment",
+      "encounter_id": "CI-0017-ENC-008",
+      "source_hospital": "Fortis Central"
+    },
+    {
+      "date": "2025-07-26",
+      "type": "follow_up",
+      "title": "Clinical follow-up",
+      "encounter_id": "CI-0017-ENC-012",
+      "source_hospital": "CityCare Hospital"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-08-14T10:30:00+05:30",
+      "action": "record_generated",
+      "actor": "synthetic_data_generator"
+    },
+    {
+      "timestamp": "2026-08-14T10:31:00+05:30",
+      "action": "source_linked",
+      "actor": "synthetic_data_generator"
+    }
+  ]
+}
